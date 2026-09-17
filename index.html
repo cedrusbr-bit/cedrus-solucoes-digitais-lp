@@ -23,7 +23,7 @@
       "image": "https://cedrusbr.com.br/Jefferson-profile.jpeg",
       "description": "Agência de marketing e consultoria de performance guiada por ciência de busca, otimização de tráfego e inteligência de dados regionalizada.",
       "url": "https://cedrusbr.com.br/",
-      "telephone": "+5511999999999",
+      "telephone": "+5521987592628",
       "email": "cedrusbr@gmail.com",
       "address": {
         "@type": "PostalAddress",
@@ -207,6 +207,10 @@
               Método
               <span class="absolute bottom-0 left-0 h-0.5 w-0 bg-brand transition-all duration-300 group-hover:w-full"></span>
             </a>
+            <a href="#faq" class="relative text-xs font-bold uppercase tracking-wider text-gray-400 hover:text-white transition-colors py-2 group">
+              FAQ
+              <span class="absolute bottom-0 left-0 h-0.5 w-0 bg-brand transition-all duration-300 group-hover:w-full"></span>
+            </a>
           </nav>
 
           <!-- CTAs -->
@@ -232,6 +236,7 @@
             <a href="#metricas" class="mobile-link text-sm font-bold uppercase tracking-wider text-gray-400 hover:text-brand transition-colors py-1">Métricas</a>
             <a href="#servicos" class="mobile-link text-sm font-bold uppercase tracking-wider text-gray-400 hover:text-brand transition-colors py-1">Serviços</a>
             <a href="#metodo" class="mobile-link text-sm font-bold uppercase tracking-wider text-gray-400 hover:text-brand transition-colors py-1">Método</a>
+            <a href="#faq" class="mobile-link text-sm font-bold uppercase tracking-wider text-gray-400 hover:text-brand transition-colors py-1">FAQ</a>
           </nav>
           <div class="pt-4 border-t border-white/5">
             <button class="open-modal-btn w-full flex items-center justify-center gap-2 rounded-xl bg-brand py-3 text-xs font-extrabold text-darkBg hover:bg-brand-dark transition-all" data-service="Geral">
@@ -272,7 +277,7 @@
             </p>
 
             <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-4">
-              <a href="https://api.whatsapp.com/send?phone=5511999999999&text=Ol%C3%A1!%20Gostaria%20de%20falar%20com%20um%20consultor%20da%20Cedrus." target="_blank" class="pulse-glow w-full sm:w-auto flex items-center justify-center gap-3 rounded-xl bg-brand hover:bg-brand-dark px-8 py-4 text-sm font-black text-darkBg shadow-[0_0_20px_rgba(16,185,129,0.3)] transition-all duration-300">
+              <a href="https://api.whatsapp.com/send?phone=5521987592628&text=Ol%C3%A1!%20Gostaria%20de%20falar%20com%20um%20consultor%20da%20Cedrus." target="_blank" class="pulse-glow w-full sm:w-auto flex items-center justify-center gap-3 rounded-xl bg-brand hover:bg-brand-dark px-8 py-4 text-sm font-black text-darkBg shadow-[0_0_20px_rgba(16,185,129,0.3)] transition-all duration-300">
                 <i data-lucide="message-square" class="h-5 w-5"></i>
                 <span>Falar com um Consultor no WhatsApp</span>
               </a>
@@ -357,47 +362,38 @@
     </section>
 
     <!-- SECTION 2: AUTHORITY BAR -->
-    <section class="relative z-10 w-full bg-[#0D111C] border-y border-white/5 py-8">
+    <section class="relative z-10 w-full bg-[#0D111C] border-y border-white/5 py-10">
       <div class="mx-auto max-w-7xl px-6">
-        <div class="grid grid-cols-1 gap-8 lg:grid-cols-12 lg:items-center">
-          
-          <!-- Clients Badges Section -->
-          <div class="lg:col-span-5 flex flex-col justify-center items-center lg:items-start">
-            <span class="text-[9px] font-bold uppercase tracking-widest text-gray-400 mb-4 block text-center lg:text-left">
-              EMPRESAS QUE ACREDITAM NA CEDRUS:
-            </span>
-            <div class="flex flex-wrap items-center justify-center lg:justify-start gap-6 sm:gap-8 opacity-70 grayscale hover:grayscale-0 transition-all duration-500">
-              <!-- Client 1 -->
-              <div class="flex items-center gap-2">
-                <i data-lucide="activity" class="h-6 w-6 text-brand"></i>
-                <span class="text-sm font-extrabold text-white font-sans tracking-tight">Clínica<span class="text-brand">Med</span></span>
-              </div>
-              <!-- Client 2 -->
-              <div class="flex items-center gap-2">
-                <i data-lucide="scale" class="h-6 w-6 text-brand"></i>
-                <span class="text-sm font-extrabold text-white font-sans tracking-tight">Advocacia<span class="text-brand">Pro</span></span>
-              </div>
-              <!-- Client 3 -->
-              <div class="flex items-center gap-2">
-                <i data-lucide="store" class="h-6 w-6 text-brand"></i>
-                <span class="text-sm font-extrabold text-white font-sans tracking-tight">Grupo<span class="text-brand">Varejo</span></span>
-              </div>
+        <div class="flex flex-col justify-center items-center text-center">
+          <span class="text-[10px] font-bold uppercase tracking-widest text-gray-400 mb-6 block">
+            EMPRESAS QUE ACREDITAM NA CEDRUS:
+          </span>
+          <div id="clients-logos-container" class="flex flex-wrap items-center justify-center gap-5 sm:gap-7">
+            <!-- Client 1: Clínica Odontológica Harmonia -->
+            <div class="group flex items-center px-5 py-3 rounded-2xl bg-white/[0.03] border border-white/5 hover:border-brand/40 hover:bg-white/[0.06] transition-all duration-300 shadow-sm hover:scale-105">
+              <img src="/logos/harmonia.svg" alt="Clínica Odontológica Harmonia" class="h-11 sm:h-12 w-auto max-w-[190px] object-contain filter grayscale opacity-80 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-300" />
+            </div>
+
+            <!-- Client 2: Cabeludo Embalagens e Festas -->
+            <div class="group flex items-center px-5 py-3 rounded-2xl bg-white/[0.03] border border-white/5 hover:border-brand/40 hover:bg-white/[0.06] transition-all duration-300 shadow-sm hover:scale-105">
+              <img src="/logos/cabeludo.svg" alt="Cabeludo Embalagens e Festas" class="h-11 sm:h-12 w-auto max-w-[190px] object-contain filter grayscale opacity-80 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-300" />
+            </div>
+
+            <!-- Client 3: Global Soluções Medicina do Trabalho -->
+            <div class="group flex items-center px-5 py-3 rounded-2xl bg-white/[0.03] border border-white/5 hover:border-brand/40 hover:bg-white/[0.06] transition-all duration-300 shadow-sm hover:scale-105">
+              <img src="/logos/global.svg" alt="Global Soluções Medicina do Trabalho" class="h-11 sm:h-12 w-auto max-w-[185px] object-contain filter grayscale opacity-80 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-300" />
+            </div>
+
+            <!-- Client 4: SegDir -->
+            <div class="group flex items-center px-5 py-3 rounded-2xl bg-white/[0.03] border border-white/5 hover:border-brand/40 hover:bg-white/[0.06] transition-all duration-300 shadow-sm hover:scale-105">
+              <img src="/logos/segdir.svg" alt="SegDir Soluções de Segurança, Medicina do Trabalho e Meio Ambiente" class="h-11 sm:h-12 w-auto max-w-[195px] object-contain filter grayscale opacity-80 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-300" />
+            </div>
+
+            <!-- Client 5: Drogaria 5 Estrelas -->
+            <div class="group flex items-center px-5 py-3 rounded-2xl bg-white/[0.03] border border-white/5 hover:border-brand/40 hover:bg-white/[0.06] transition-all duration-300 shadow-sm hover:scale-105">
+              <img src="/logos/drogaria5estrelas.svg" alt="Drogaria 5 Estrelas" class="h-11 sm:h-12 w-auto max-w-[195px] object-contain filter grayscale opacity-80 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-300" />
             </div>
           </div>
-
-          <!-- Partners Carousel / List -->
-          <div class="lg:col-span-7 flex flex-col justify-center border-t border-white/5 lg:border-t-0 lg:border-l lg:pl-10 pt-6 lg:pt-0">
-            <span class="text-[9px] font-bold uppercase tracking-widest text-gray-400 mb-3 block text-center lg:text-left">
-              TECNOLOGIAS E MÉTODOS DE RASTREAMENTO QUE UTILIZAMOS:
-            </span>
-            <div class="flex flex-wrap justify-center lg:justify-start items-center gap-3">
-              <span class="px-3.5 py-1.5 rounded-lg bg-[#070A13] border border-white/5 text-[10px] font-extrabold text-white/80">Google Tag Manager</span>
-              <span class="px-3.5 py-1.5 rounded-lg bg-[#070A13] border border-white/5 text-[10px] font-extrabold text-white/80">Google Analytics 4</span>
-              <span class="px-3.5 py-1.5 rounded-lg bg-[#070A13] border border-white/5 text-[10px] font-extrabold text-white/80">Clarity heatmap</span>
-              <span class="px-3.5 py-1.5 rounded-lg bg-[#070A13] border border-white/5 text-[10px] font-extrabold text-white/80">API de Conversões</span>
-            </div>
-          </div>
-
         </div>
       </div>
     </section>
@@ -668,10 +664,10 @@
             </div>
           </div>
 
-          <!-- Card 5: Vídeos Profissionais (Cols 12) -->
-          <div class="framer-scroll-reveal opacity-0 translate-y-8 md:col-span-12 glassmorphism rounded-3xl p-8 border border-white/5 flex flex-col lg:flex-row justify-between items-start lg:items-center gap-8 group hover:border-brand/35 transition-all duration-500 hover:-translate-y-1.5 hover:shadow-[0_15px_40px_rgba(16,185,129,0.08)]">
-            <div class="flex-1">
-              <div class="flex items-center justify-between lg:justify-start lg:gap-4 mb-6">
+          <!-- Card 5: Vídeos Profissionais (Cols 6) -->
+          <div class="framer-scroll-reveal opacity-0 translate-y-8 md:col-span-6 glassmorphism rounded-3xl p-8 border border-white/5 flex flex-col justify-between group hover:border-brand/35 transition-all duration-500 hover:-translate-y-1.5 hover:shadow-[0_15px_40px_rgba(16,185,129,0.08)]">
+            <div>
+              <div class="flex items-center justify-between mb-8">
                 <div class="h-14 w-14 rounded-2xl bg-brand/10 border border-brand/20 flex items-center justify-center text-brand group-hover:bg-brand group-hover:text-darkBg transition-all duration-500 shadow-inner shrink-0">
                   <i data-lucide="video" class="h-6 w-6"></i>
                 </div>
@@ -682,11 +678,11 @@
               <h3 class="text-2xl font-extrabold text-white group-hover:text-brand transition-colors duration-300 font-sans">
                 Vídeos Profissionais (Videomaker & Storymaker)
               </h3>
-              <p class="mt-3 text-sm text-gray-400 leading-relaxed font-body font-medium max-w-3xl">
-                Captação e edição profissional de vídeos para acelerar as vendas e o posicionamento do seu negócio. Nossa equipe especialista em videomaker e storymaker produz conteúdos estratégicos de alta conversão, Reels, Shorts e anúncios que capturam a atenção e geram conexão imediata com o público.
+              <p class="mt-3 text-sm text-gray-400 leading-relaxed font-body font-medium">
+                Captação e edição profissional de vídeos para acelerar as vendas e o posicionamento do seu negócio. Conteúdos estratégicos de alta conversão para Reels, Shorts e anúncios que capturam a atenção e geram conexão imediata com o público.
               </p>
               
-              <ul class="mt-6 grid grid-cols-1 md:grid-cols-3 gap-3">
+              <ul class="mt-6 space-y-2.5">
                 <li class="flex items-center gap-3 text-xs text-gray-400 font-bold">
                   <i data-lucide="check-circle" class="h-4 w-4 text-brand shrink-0"></i> Captação presencial e edição para Reels, Shorts e Anúncios
                 </li>
@@ -699,12 +695,52 @@
               </ul>
             </div>
             
-            <div class="w-full lg:w-auto pt-6 lg:pt-0 lg:pl-8 border-t lg:border-t-0 lg:border-l border-white/5 flex lg:flex-col items-center justify-between lg:justify-center gap-4 shrink-0">
+            <div class="mt-8 pt-6 border-t border-white/5 flex items-center justify-between">
               <button class="open-modal-btn flex items-center gap-2 text-xs font-black text-brand hover:text-white transition-colors" data-service="Vídeos Profissionais">
                 <span>Solicitar Proposta Comercial</span>
                 <i data-lucide="arrow-right" class="h-4 w-4"></i>
               </button>
               <span class="text-xs font-mono font-bold text-gray-600">05</span>
+            </div>
+          </div>
+
+          <!-- Card 6: Implantação - Google Workspace para Negócios (Cols 6) -->
+          <div class="framer-scroll-reveal opacity-0 translate-y-8 md:col-span-6 glassmorphism rounded-3xl p-8 border border-white/5 flex flex-col justify-between group hover:border-brand/35 transition-all duration-500 hover:-translate-y-1.5 hover:shadow-[0_15px_40px_rgba(16,185,129,0.08)]">
+            <div>
+              <div class="flex items-center justify-between mb-8">
+                <div class="h-14 w-14 rounded-2xl bg-brand/10 border border-brand/20 flex items-center justify-center text-brand group-hover:bg-brand group-hover:text-darkBg transition-all duration-500 shadow-inner shrink-0">
+                  <i data-lucide="shield-check" class="h-6 w-6"></i>
+                </div>
+                <span class="rounded-xl bg-brand/10 px-3.5 py-1 text-[9px] font-black text-brand border border-brand/15 uppercase tracking-widest">
+                  Infraestrutura & Segurança
+                </span>
+              </div>
+              <h3 class="text-2xl font-extrabold text-white group-hover:text-brand transition-colors duration-300 font-sans">
+                Implantação - Google Workspace para Negócios
+              </h3>
+              <p class="mt-3 text-sm text-gray-400 leading-relaxed font-body font-medium">
+                Profissionalize a comunicação e a segurança da sua empresa com o ecossistema oficial do Google. Configuramos e-mails corporativos personalizados, migração de dados sem interrupções e blindagem contra SPAM e phishing.
+              </p>
+              
+              <ul class="mt-6 space-y-2.5">
+                <li class="flex items-center gap-3 text-xs text-gray-400 font-bold">
+                  <i data-lucide="check-circle" class="h-4 w-4 text-brand shrink-0"></i> E-mails corporativos (@suaempresa.com.br) no Gmail profissional
+                </li>
+                <li class="flex items-center gap-3 text-xs text-gray-400 font-bold">
+                  <i data-lucide="check-circle" class="h-4 w-4 text-brand shrink-0"></i> Configuração técnica de DNS: SPF, DKIM e DMARC anti-SPAM
+                </li>
+                <li class="flex items-center gap-3 text-xs text-gray-400 font-bold">
+                  <i data-lucide="check-circle" class="h-4 w-4 text-brand shrink-0"></i> Gestão em nuvem colaborativa (Drive, Meet, Docs e Planilhas)
+                </li>
+              </ul>
+            </div>
+            
+            <div class="mt-8 pt-6 border-t border-white/5 flex items-center justify-between">
+              <button class="open-modal-btn flex items-center gap-2 text-xs font-black text-brand hover:text-white transition-colors" data-service="Implantação - Google Workspace para Negócios">
+                <span>Solicitar Proposta Comercial</span>
+                <i data-lucide="arrow-right" class="h-4 w-4"></i>
+              </button>
+              <span class="text-xs font-mono font-bold text-gray-600">06</span>
             </div>
           </div>
 
@@ -1206,7 +1242,7 @@
           </p>
 
           <div class="flex flex-col sm:flex-row justify-center items-center gap-4">
-            <a href="https://api.whatsapp.com/send?phone=5511999999999&text=Ol%C3%A1!%20Gostaria%20de%20falar%20com%20um%20consultor%20para%20fazer%20um%20diagn%C3%B3stico%20gratuito%20da%20minha%20empresa." target="_blank" class="pulse-glow w-full sm:w-auto flex items-center justify-center gap-2.5 rounded-xl bg-brand px-8 py-4 text-sm font-black text-darkBg shadow-[0_0_20px_rgba(16,185,129,0.3)] transition-all duration-300">
+            <a href="https://api.whatsapp.com/send?phone=5521987592628&text=Ol%C3%A1!%20Gostaria%20de%20falar%20com%20um%20consultor%20para%20fazer%20um%20diagn%C3%B3stico%20gratuito%20da%20minha%20empresa." target="_blank" class="pulse-glow w-full sm:w-auto flex items-center justify-center gap-2.5 rounded-xl bg-brand px-8 py-4 text-sm font-black text-darkBg shadow-[0_0_20px_rgba(16,185,129,0.3)] transition-all duration-300">
               <i data-lucide="message-square" class="h-5 w-5"></i>
               <span>Iniciar Diagnóstico Gratuito via WhatsApp</span>
             </a>
@@ -1281,6 +1317,7 @@
               <li><button class="open-modal-btn hover:text-white transition-colors" data-service="Google Meu Negócio">Google Meu Negócio (Maps)</button></li>
               <li><button class="open-modal-btn hover:text-white transition-colors" data-service="Desenvolvimento Web Premium">Desenvolvimento de Sites Premium</button></li>
               <li><button class="open-modal-btn hover:text-white transition-colors" data-service="Vídeos Profissionais">Vídeos Profissionais (Videomaker/Storymaker)</button></li>
+              <li><button class="open-modal-btn hover:text-white transition-colors" data-service="Implantação - Google Workspace para Negócios">Implantação Google Workspace</button></li>
             </ul>
           </div>
 
@@ -1288,6 +1325,9 @@
           <div class="md:col-span-5 space-y-4 text-xs font-semibold">
             <h4 class="text-xs font-black uppercase tracking-widest text-white">Contato e Expediente</h4>
             <div class="space-y-2 text-gray-400">
+              <p class="flex items-center gap-2.5">
+                <i data-lucide="phone" class="h-4 w-4 text-brand shrink-0"></i> <a href="https://api.whatsapp.com/send?phone=5521987592628" target="_blank" class="hover:text-white transition-colors">(21) 98759-2628 (WhatsApp)</a>
+              </p>
               <p class="flex items-center gap-2.5">
                 <i data-lucide="clock" class="h-4 w-4 text-brand shrink-0"></i> Segunda a Sexta: 09:00 às 17:00
               </p>
@@ -1371,7 +1411,7 @@
             <label class="text-xs font-bold text-gray-300 flex items-center gap-1.5">
               <i data-lucide="phone" class="h-4 w-4 text-brand"></i> WhatsApp / Celular *
             </label>
-            <input type="tel" id="form-phone" required placeholder="Ex: (11) 99999-9999" class="w-full rounded-xl border border-white/5 bg-[#070A13] px-4 py-3 text-sm text-white placeholder-gray-600 focus:border-brand/40 focus:outline-none focus:ring-1 focus:ring-brand/40 transition-colors">
+            <input type="tel" id="form-phone" required placeholder="Ex: (21) 98759-2628" class="w-full rounded-xl border border-white/5 bg-[#070A13] px-4 py-3 text-sm text-white placeholder-gray-600 focus:border-brand/40 focus:outline-none focus:ring-1 focus:ring-brand/40 transition-colors">
           </div>
 
           <!-- Solution of interest -->
@@ -1386,6 +1426,7 @@
               <option value="Google Meu Negócio">Google Meu Negócio (Maps)</option>
               <option value="Desenvolvimento Web Premium">Desenvolvimento de Sites Premium</option>
               <option value="Vídeos Profissionais">Vídeos Profissionais (Videomaker & Storymaker)</option>
+              <option value="Implantação - Google Workspace para Negócios">Implantação - Google Workspace para Negócios</option>
             </select>
           </div>
 
@@ -1481,7 +1522,7 @@
     </div>
 
     <!-- FLOATING WHATSAPP WIDGET -->
-    <a id="wa-widget" href="https://api.whatsapp.com/send?phone=5511999999999&text=Ol%C3%A1!%20Gostaria%20de%20solicitar%20uma%20an%C3%A1lise%20estrategica%20dos%20an%C3%BAncios%20e%20SEO%20do%20meu%20neg%C3%B3cio." target="_blank" class="fixed bottom-6 right-6 z-40 flex items-center justify-center h-14 w-14 rounded-full bg-emerald-500 text-white shadow-[0_4px_20px_rgba(16,185,129,0.4)] border border-emerald-400/20 hover:scale-110 transition-all duration-300 translate-y-24 opacity-0 pointer-events-auto cursor-pointer">
+    <a id="wa-widget" href="https://api.whatsapp.com/send?phone=5521987592628&text=Ol%C3%A1!%20Gostaria%20de%20solicitar%20uma%20an%C3%A1lise%20estrategica%20dos%20an%C3%BAncios%20e%20SEO%20do%20meu%20neg%C3%B3cio." target="_blank" class="fixed bottom-6 right-6 z-40 flex items-center justify-center h-14 w-14 rounded-full bg-emerald-500 text-white shadow-[0_4px_20px_rgba(16,185,129,0.4)] border border-emerald-400/20 hover:scale-110 transition-all duration-300 translate-y-24 opacity-0 pointer-events-auto cursor-pointer">
       <div class="absolute inset-0 rounded-full border-4 border-emerald-400/30 animate-ping [animation-duration:2s]"></div>
       <i data-lucide="message-square" class="h-6 w-6 relative z-10 fill-current"></i>
     </a>
@@ -1635,7 +1676,7 @@
 
             // Update the CTA button href securely
             const waRedirectLink = document.getElementById('wa-redirect-link');
-            waRedirectLink.href = `https://api.whatsapp.com/send?phone=5511999999999&text=${encodedText}`;
+            waRedirectLink.href = `https://api.whatsapp.com/send?phone=5521987592628&text=${encodedText}`;
           }
         }, 150);
       });

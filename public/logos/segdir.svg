@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 80" fill="none">
+  <!-- Hard Hat Icon in Green Badge -->
+  <rect x="8" y="10" width="60" height="60" rx="14" fill="#044D29" stroke="#10B981" stroke-width="1.5"/>
+  <!-- Helmet vector -->
+  <path d="M22 45 C 22 30, 32 23, 38 23 C 44 23, 54 30, 54 45" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+  <path d="M18 47 Q 38 52 58 47" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+  <path d="M34 23 V 33 M 42 23 V 33" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Typography -->
+  <text x="78" y="40" font-family="'Cinzel', 'Georgia', serif" font-size="22" font-weight="900" fill="#FFFFFF">SegDir</text>
+  <text x="80" y="54" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-size="7.5" font-weight="700" letter-spacing="0.5" fill="#34D399">MEDICINA &amp; SEGURANÇA</text>
+</svg>
