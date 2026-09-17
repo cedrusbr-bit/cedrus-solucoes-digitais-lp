@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Termos de Uso | Cedrus Soluções Digitais</title>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: { extend: { fontFamily: { sans: ['"Plus Jakarta Sans"', 'Inter', 'sans-serif'], body: ['Inter', 'sans-serif'] }, colors: { darkBg: { DEFAULT: '#0B0F19', deep: '#070A13' }, brand: { DEFAULT: '#10B981' } } } }
+      }
+    </script>
+  </head>
+  <body class="bg-darkBg-deep text-gray-300 font-body antialiased min-h-screen flex flex-col">
+    <!-- NAVBAR -->
+    <header class="fixed top-0 z-50 w-full border-b border-white/5 bg-darkBg-deep/90 backdrop-blur-md">
+      <div class="mx-auto flex h-20 max-w-7xl items-center justify-between px-6">
+        <a href="/" class="flex items-center gap-3">
+          <div class="flex h-9 w-9 items-center justify-center rounded-xl bg-[#111827] border border-brand/20 text-brand shadow-[0_0_15px_rgba(16,185,129,0.15)]">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"/><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/></svg>
+          </div>
+          <span class="text-lg font-extrabold tracking-tight text-white">Cedrus<span class="text-brand">.</span></span>
+        </a>
+        <a href="/" class="text-xs font-bold uppercase tracking-wider text-gray-400 hover:text-white transition-colors">Voltar ao Início</a>
+      </div>
+    </header>
+
+    <main class="flex-grow pt-32 pb-24">
+      <div class="mx-auto max-w-4xl px-6">
+        <h1 class="text-3xl sm:text-4xl font-extrabold tracking-tight text-white font-sans mb-8">Termos de Uso</h1>
+        
+        <div class="space-y-8 text-sm md:text-base leading-relaxed text-gray-400">
+          <section>
+            <h2 class="text-xl font-bold text-white mb-4">1. Aceitação dos Termos</h2>
+            <p>Ao acessar e utilizar o site da Cedrus Soluções Digitais, você concorda em cumprir e estar vinculado a estes Termos de Uso. Se você não concorda com qualquer parte destes termos, não deve utilizar nosso site.</p>
+          </section>
+
+          <section>
+            <h2 class="text-xl font-bold text-white mb-4">2. Uso do Site</h2>
+            <p class="mb-3">Você se compromete a utilizar este site de forma legal e ética. É estritamente proibido:</p>
+            <ul class="list-disc pl-5 space-y-2">
+              <li>Fornecer dados falsos em formulários de contato ou diagnóstico.</li>
+              <li>Utilizar o conteúdo do site para fins ilegais ou não autorizados.</li>
+              <li>Tentar interferir no funcionamento técnico do site ou em sua segurança.</li>
+            </ul>
+          </section>
+
+          <section>
+            <h2 class="text-xl font-bold text-white mb-4">3. Propriedade Intelectual</h2>
+            <p>Todo o conteúdo deste site, incluindo textos, gráficos, logotipos, ícones, imagens e código estrutural, é propriedade da Cedrus Soluções Digitais ou de seus licenciadores e está protegido pelas leis de direitos autorais. Nenhuma reprodução, distribuição ou modificação não autorizada é permitida.</p>
+          </section>
+
+          <section>
+            <h2 class="text-xl font-bold text-white mb-4">4. Limitação de Responsabilidade</h2>
+            <p>O conteúdo apresentado no site possui finalidade informativa e comercial. Embora nos esforcemos para manter as informações corretas e atualizadas, a Cedrus Soluções Digitais não garante resultados exatos para todos os usuários através dos diagnósticos, dependendo de cada caso e negociação específica. Não seremos responsáveis por danos diretos ou indiretos resultantes do uso das informações deste site.</p>
+          </section>
+
+          <section>
+            <h2 class="text-xl font-bold text-white mb-4">5. Modificações dos Termos</h2>
+            <p>Reservamo-nos o direito de alterar ou atualizar estes Termos de Uso a qualquer momento. A continuação do uso do site após quaisquer alterações implica na aceitação das novas condições.</p>
+          </section>
+        </div>
+      </div>
+    </main>
+
+    <footer class="border-t border-white/5 bg-[#070A13] py-8 text-center text-gray-500 text-[10px] font-bold uppercase tracking-widest">
+      <p>© 2026 Cedrus Soluções Digitais. Todos os direitos reservados. | CNPJ: 49.918.596/0001-00</p>
+    </footer>
+  </body>
+</html>

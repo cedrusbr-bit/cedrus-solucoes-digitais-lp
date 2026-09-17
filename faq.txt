@@ -1,0 +1,108 @@
+    <!-- SECTION 5.5: FAQ -->
+    <section id="faq" class="py-24 bg-[#0D111C] relative border-t border-white/5">
+      <div class="mx-auto max-w-4xl px-6 relative z-10">
+        
+        <div class="text-center mb-16">
+          <span class="text-xs font-bold uppercase tracking-widest text-brand bg-brand/5 border border-brand/20 px-3.5 py-1 rounded-full inline-block mb-3">
+            Perguntas Frequentes
+          </span>
+          <h2 class="text-3xl sm:text-4xl font-extrabold tracking-tight text-white font-sans">
+            Tire Suas Dúvidas
+          </h2>
+        </div>
+
+        <div class="space-y-4">
+          
+          <!-- FAQ 1 -->
+          <div class="faq-item glassmorphism rounded-2xl border border-white/5 overflow-hidden transition-all duration-300">
+            <button class="faq-button w-full px-6 py-5 flex items-center justify-between text-left hover:bg-white/[0.02] transition-colors focus:outline-none">
+              <span class="text-sm font-bold text-white">Quanto tempo leva para ver resultados com Tráfego Pago?</span>
+              <i data-lucide="chevron-down" class="faq-icon h-5 w-5 text-brand transition-transform duration-300 shrink-0 ml-4"></i>
+            </button>
+            <div class="faq-content hidden px-6 pb-6 text-sm text-gray-400 font-medium leading-relaxed">
+              No tráfego pago (Google e Meta Ads), é possível notar aumento no volume de leads logo nas primeiras 48 a 72 horas após a ativação da campanha. O período de maturação para a inteligência de lances e otimização de custo por lead (CPL) é, em média, de 3 a 6 semanas. Nossa gestão foca em performance imediata aliada ao ganho progressivo de inteligência.
+            </div>
+          </div>
+
+          <!-- FAQ 2 -->
+          <div class="faq-item glassmorphism rounded-2xl border border-white/5 overflow-hidden transition-all duration-300">
+            <button class="faq-button w-full px-6 py-5 flex items-center justify-between text-left hover:bg-white/[0.02] transition-colors focus:outline-none">
+              <span class="text-sm font-bold text-white">Preciso de um orçamento milionário para começar a anunciar?</span>
+              <i data-lucide="chevron-down" class="faq-icon h-5 w-5 text-brand transition-transform duration-300 shrink-0 ml-4"></i>
+            </button>
+            <div class="faq-content hidden px-6 pb-6 text-sm text-gray-400 font-medium leading-relaxed">
+              Não. O tráfego pago permite iniciar com orçamentos estratégicos e escalar conforme o Retorno sobre Investimento (ROI) é comprovado. Desenhamos o plano de verba inicial alinhado à sua meta de vendas, garantindo que você nunca gaste dinheiro, mas invista para comprar lucro.
+            </div>
+          </div>
+
+          <!-- FAQ 3 -->
+          <div class="faq-item glassmorphism rounded-2xl border border-white/5 overflow-hidden transition-all duration-300">
+            <button class="faq-button w-full px-6 py-5 flex items-center justify-between text-left hover:bg-white/[0.02] transition-colors focus:outline-none">
+              <span class="text-sm font-bold text-white">Em quanto tempo meu site chega na primeira página com SEO e GEO?</span>
+              <i data-lucide="chevron-down" class="faq-icon h-5 w-5 text-brand transition-transform duration-300 shrink-0 ml-4"></i>
+            </button>
+            <div class="faq-content hidden px-6 pb-6 text-sm text-gray-400 font-medium leading-relaxed">
+              Tanto o SEO (Search Engine Optimization) quanto o GEO (Generative Experience Optimization) formam uma estratégia de médio a longo prazo para construir autoridade inquestionável. Enquanto o SEO posiciona você nos resultados tradicionais, o GEO otimiza sua marca para ser recomendada pelas novas Inteligências Artificiais do Google. O tempo depende da concorrência, mas otimizações iniciais costumam gerar aumento expressivo em visibilidade nos primeiros 60 a 90 dias.
+            </div>
+          </div>
+
+          <!-- FAQ 4 -->
+          <div class="faq-item glassmorphism rounded-2xl border border-white/5 overflow-hidden transition-all duration-300">
+            <button class="faq-button w-full px-6 py-5 flex items-center justify-between text-left hover:bg-white/[0.02] transition-colors focus:outline-none">
+              <span class="text-sm font-bold text-white">Tenho total acesso às contas e relatórios?</span>
+              <i data-lucide="chevron-down" class="faq-icon h-5 w-5 text-brand transition-transform duration-300 shrink-0 ml-4"></i>
+            </button>
+            <div class="faq-content hidden px-6 pb-6 text-sm text-gray-400 font-medium leading-relaxed">
+              100%. Diferente do mercado comum, você é o proprietário absoluto das suas contas de anúncios (Google Ads, Meta Ads). Fornecemos dashboards em tempo real (Data Studio) com métricas de negócio, mostrando exatamente de onde veio cada lead e o Custo de Aquisição de Clientes (CAC).
+            </div>
+          </div>
+
+          <!-- FAQ 5 -->
+          <div class="faq-item glassmorphism rounded-2xl border border-white/5 overflow-hidden transition-all duration-300">
+            <button class="faq-button w-full px-6 py-5 flex items-center justify-between text-left hover:bg-white/[0.02] transition-colors focus:outline-none">
+              <span class="text-sm font-bold text-white">Como sei se o tráfego pago realmente funciona para o meu nicho?</span>
+              <i data-lucide="chevron-down" class="faq-icon h-5 w-5 text-brand transition-transform duration-300 shrink-0 ml-4"></i>
+            </button>
+            <div class="faq-content hidden px-6 pb-6 text-sm text-gray-400 font-medium leading-relaxed">
+              Qualquer modelo de negócio que possui demanda latente (pessoas buscando o serviço ativamente no Google) ou necessidade de expansão (descoberta no Instagram/Facebook) pode se beneficiar do tráfego. Agende nossa consultoria gratuita para rodarmos uma auditoria no seu segmento específico antes de qualquer compromisso.
+            </div>
+          </div>
+
+          <!-- FAQ 6 -->
+          <div class="faq-item glassmorphism rounded-2xl border border-white/5 overflow-hidden transition-all duration-300">
+            <button class="faq-button w-full px-6 py-5 flex items-center justify-between text-left hover:bg-white/[0.02] transition-colors focus:outline-none">
+              <span class="text-sm font-bold text-white">Por que minha empresa precisa estar no Perfil de Empresa no Google (Google Meu Negócio)?</span>
+              <i data-lucide="chevron-down" class="faq-icon h-5 w-5 text-brand transition-transform duration-300 shrink-0 ml-4"></i>
+            </button>
+            <div class="faq-content hidden px-6 pb-6 text-sm text-gray-400 font-medium leading-relaxed">
+              O Perfil de Empresa no Google é a vitrine digital mais importante para negócios locais. É através dele que os clientes da sua região encontram seus serviços ao pesquisarem no Google Maps ou na Busca. Uma ficha bem ranqueada atrai contatos diretos (ligações, mensagens) e visitas presenciais sem que você precise pagar por cada clique.
+            </div>
+          </div>
+
+          <!-- FAQ 7 -->
+          <div class="faq-item glassmorphism rounded-2xl border border-white/5 overflow-hidden transition-all duration-300">
+            <button class="faq-button w-full px-6 py-5 flex items-center justify-between text-left hover:bg-white/[0.02] transition-colors focus:outline-none">
+              <span class="text-sm font-bold text-white">Como funciona a otimização da ficha no Google?</span>
+              <i data-lucide="chevron-down" class="faq-icon h-5 w-5 text-brand transition-transform duration-300 shrink-0 ml-4"></i>
+            </button>
+            <div class="faq-content hidden px-6 pb-6 text-sm text-gray-400 font-medium leading-relaxed">
+              Nossa estratégia envolve uma auditoria técnica da ficha atual, aplicação correta de palavras-chave (SEO e GEO - otimizando também para IAs), geolocalização exata de imagens por coordenadas, cadastro estruturado de produtos/serviços e atualizações frequentes. Isso sinaliza para o algoritmo que o seu negócio é a resposta de maior autoridade e relevância para as buscas de clientes próximos a você.
+            </div>
+          </div>
+
+          <!-- FAQ 8 -->
+          <div class="faq-item glassmorphism rounded-2xl border border-white/5 overflow-hidden transition-all duration-300">
+            <button class="faq-button w-full px-6 py-5 flex items-center justify-between text-left hover:bg-white/[0.02] transition-colors focus:outline-none">
+              <span class="text-sm font-bold text-white">Faz sentido comprar avaliações para o Google Maps?</span>
+              <i data-lucide="chevron-down" class="faq-icon h-5 w-5 text-brand transition-transform duration-300 shrink-0 ml-4"></i>
+            </button>
+            <div class="faq-content hidden px-6 pb-6 text-sm text-gray-400 font-medium leading-relaxed">
+              Não. O algoritmo do Google identifica e pune severamente fichas que utilizam avaliações falsas, podendo banir permanentemente seu perfil. Nós implementamos estratégias seguras (White Hat) e automações de CRM para captar avaliações 100% reais de clientes satisfeitos, construindo uma reputação autêntica e blindada contra punições.
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+

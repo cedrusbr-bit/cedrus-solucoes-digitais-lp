@@ -1,0 +1,1709 @@
+<!doctype html>
+<html lang="pt-BR" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cedrus Soluções Digitais | Agência de Marketing & Gestão de Tráfego de Alta Performance</title>
+    
+    <!-- Meta Tags SEO & Open Graph -->
+    <meta name="description" content="Especialistas em SEO, GEO Local e Gestão de Tráfego. Posicionamos sua empresa no topo do Google Meu Negócio e captamos os clientes mais qualificados." />
+    <meta name="keywords" content="Gestão de Tráfego, Agência de Marketing, SEO Local, Google Meu Negócio, GEO, AEO, Tráfego Pago, Google Ads, Meta Ads" />
+    <meta property="og:title" content="Cedrus Soluções Digitais | Agência de Marketing" />
+    <meta property="og:description" content="Engenharia de tráfego baseada em inteligência geolocalizada. Otimizamos campanhas e perfis no Google." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://cedrusbr.com.br/" />
+    <link rel="canonical" href="https://cedrusbr.com.br/" />
+
+    <!-- Schema Markup (JSON-LD) para LocalBusiness & AEO/GEO -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Cedrus Soluções Digitais",
+      "image": "https://cedrusbr.com.br/Jefferson-profile.jpeg",
+      "description": "Agência de marketing e consultoria de performance guiada por ciência de busca, otimização de tráfego e inteligência de dados regionalizada.",
+      "url": "https://cedrusbr.com.br/",
+      "telephone": "+5511999999999",
+      "email": "cedrusbr@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "BR"
+      },
+      "sameAs": [
+        "https://www.instagram.com/cedrussolucoesdigitais/",
+        "https://www.youtube.com/@CedrusSolucoesDigitais",
+        "https://share.google/v61EFYVpJ2QVRkqPW"
+      ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Por que minha empresa precisa estar no Perfil de Empresa no Google (Google Meu Negócio)?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "O Perfil de Empresa no Google é a vitrine digital mais importante para negócios locais. É através dele que os clientes da sua região encontram seus serviços ao pesquisarem no Google Maps ou na Busca."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Como funciona a otimização da ficha no Google?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nossa estratégia envolve uma auditoria técnica da ficha atual, aplicação correta de palavras-chave (SEO e GEO - otimizando também para IAs), geolocalização exata de imagens por coordenadas e atualizações frequentes."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Em quanto tempo meu site chega na primeira página com SEO e GEO?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "O tempo depende da concorrência, mas otimizações iniciais costumam gerar aumento expressivo em visibilidade nos primeiros 60 a 90 dias através de estratégias consistentes de médio e longo prazo."
+          }
+        }
+      ]
+    }
+    </script>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Lucide Icons CDN -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <!-- Tailwind CSS Play CDN with custom Theme Configuration -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['"Plus Jakarta Sans"', 'Inter', 'sans-serif'],
+              body: ['Inter', 'sans-serif']
+            },
+            colors: {
+              darkBg: {
+                DEFAULT: '#0B0F19',
+                deep: '#070A13',
+                card: '#111827',
+                lighter: '#1F2937'
+              },
+              brand: {
+                DEFAULT: '#10B981', // Premium Emerald
+                dark: '#059669', // Sophisticated Sage/Emerald
+                light: '#34D399',
+                glow: 'rgba(16, 185, 129, 0.15)'
+              }
+            },
+            animation: {
+              'pulse-glow': 'pulseGlow 2s infinite ease-in-out',
+              'float': 'float 6s infinite ease-in-out',
+              'fade-in': 'fadeIn 0.5s ease-out forwards',
+              'slide-up': 'slideUp 0.6s ease-out forwards',
+            }
+          }
+        }
+      }
+    </script>
+
+    <style type="text/css">
+      /* Custom utility patterns */
+      @keyframes pulseGlow {
+        0%, 100% {
+          box-shadow: 0 0 15px rgba(16, 185, 129, 0.3);
+          transform: scale(1);
+        }
+        50% {
+          box-shadow: 0 0 25px rgba(16, 185, 129, 0.6);
+          transform: scale(1.02);
+        }
+      }
+      @keyframes float {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-10px); }
+      }
+      @keyframes fadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
+      }
+      @keyframes slideUp {
+        from { opacity: 0; transform: translateY(20px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+
+      .pulse-glow {
+        animation: pulseGlow 2s infinite ease-in-out;
+      }
+      .animate-float {
+        animation: float 6s infinite ease-in-out;
+      }
+      .bg-dot-grid {
+        background-image: radial-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 0);
+        background-size: 24px 24px;
+      }
+      .glassmorphism {
+        background: rgba(17, 24, 39, 0.7);
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+        border: 1px solid rgba(255, 255, 255, 0.08);
+      }
+      .glassmorphism-accent {
+        background: rgba(16, 185, 129, 0.05);
+        backdrop-filter: blur(16px);
+        -webkit-backdrop-filter: blur(16px);
+        border: 1px solid rgba(16, 185, 129, 0.2);
+      }
+    </style>
+  </head>
+
+  <body class="bg-[#0B0F19] text-gray-300 font-body selection:bg-brand selection:text-darkBg overflow-x-hidden">
+
+    <!-- Ambient glowing backgrounds -->
+    <div class="absolute top-0 left-1/4 -translate-x-1/2 w-[500px] h-[500px] rounded-full bg-brand/10 blur-[150px] pointer-events-none -z-10 animate-pulse"></div>
+    <div class="absolute top-[30%] right-1/4 w-[600px] h-[600px] rounded-full bg-emerald-800/5 blur-[180px] pointer-events-none -z-10"></div>
+    <div class="absolute bottom-[10%] left-1/3 w-[500px] h-[500px] rounded-full bg-brand/5 blur-[160px] pointer-events-none -z-10 animate-float"></div>
+
+    <!-- HEADER / NAVIGATION -->
+    <header id="main-header" class="fixed top-0 left-0 right-0 z-50 transition-all duration-500 py-5 px-4 sm:px-8">
+      <div class="mx-auto max-w-7xl rounded-2xl border border-white/5 bg-[#0D111C]/40 backdrop-blur-md transition-all duration-500">
+        <div class="flex items-center justify-between px-6 py-4">
+          
+          <!-- Logo -->
+          <a href="#" class="flex items-center gap-3 group">
+            <div class="flex h-10 w-10 items-center justify-center rounded-xl bg-[#111827] border border-brand/20 text-brand shadow-[0_0_15px_rgba(16,185,129,0.15)] group-hover:scale-105 group-hover:border-brand/50 transition-all duration-300">
+              <i data-lucide="leaf" class="h-5 w-5 text-brand animate-pulse"></i>
+            </div>
+            <div>
+              <span class="text-xl font-extrabold tracking-tight text-white group-hover:text-brand transition-colors duration-300">
+                Cedrus<span class="text-brand">.</span>
+              </span>
+              <span class="block text-[9px] font-bold uppercase tracking-widest text-gray-400">
+                Soluções Digitais
+              </span>
+            </div>
+          </a>
+
+          <!-- Navigation Links -->
+          <nav class="hidden md:flex items-center gap-8">
+            <a href="#" class="relative text-xs font-bold uppercase tracking-wider text-gray-400 hover:text-white transition-colors py-2 group">
+              Início
+              <span class="absolute bottom-0 left-0 h-0.5 w-0 bg-brand transition-all duration-300 group-hover:w-full"></span>
+            </a>
+            <a href="#metricas" class="relative text-xs font-bold uppercase tracking-wider text-gray-400 hover:text-white transition-colors py-2 group">
+              Métricas
+              <span class="absolute bottom-0 left-0 h-0.5 w-0 bg-brand transition-all duration-300 group-hover:w-full"></span>
+            </a>
+            <a href="#servicos" class="relative text-xs font-bold uppercase tracking-wider text-gray-400 hover:text-white transition-colors py-2 group">
+              Serviços
+              <span class="absolute bottom-0 left-0 h-0.5 w-0 bg-brand transition-all duration-300 group-hover:w-full"></span>
+            </a>
+            <a href="#metodo" class="relative text-xs font-bold uppercase tracking-wider text-gray-400 hover:text-white transition-colors py-2 group">
+              Método
+              <span class="absolute bottom-0 left-0 h-0.5 w-0 bg-brand transition-all duration-300 group-hover:w-full"></span>
+            </a>
+          </nav>
+
+          <!-- CTAs -->
+          <div class="flex items-center gap-4">
+            <button class="open-modal-btn group hidden sm:flex items-center gap-2 rounded-xl bg-brand px-5 py-2.5 text-xs font-extrabold text-darkBg hover:bg-brand-dark hover:shadow-[0_0_20px_rgba(16,185,129,0.4)] transition-all duration-300 hover:scale-[1.02]" data-service="Geral">
+              <i data-lucide="phone-call" class="h-3.5 w-3.5"></i>
+              <span>Consultoria Gratuita</span>
+              <i data-lucide="arrow-up-right" class="h-3 w-3 opacity-60 group-hover:opacity-100 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-all"></i>
+            </button>
+
+            <!-- Mobile menu button -->
+            <button id="menu-btn" class="md:hidden flex h-10 w-10 items-center justify-center rounded-xl border border-white/10 bg-[#111827] text-gray-400 hover:text-white transition-colors">
+              <i id="menu-icon" data-lucide="menu" class="h-5 w-5"></i>
+            </button>
+          </div>
+
+        </div>
+
+        <!-- Mobile Menu Dropdown -->
+        <div id="mobile-menu" class="hidden md:hidden border-t border-white/5 bg-[#0D111C] rounded-b-2xl p-6 space-y-4">
+          <nav class="flex flex-col gap-4">
+            <a href="#" class="mobile-link text-sm font-bold uppercase tracking-wider text-gray-400 hover:text-brand transition-colors py-1">Início</a>
+            <a href="#metricas" class="mobile-link text-sm font-bold uppercase tracking-wider text-gray-400 hover:text-brand transition-colors py-1">Métricas</a>
+            <a href="#servicos" class="mobile-link text-sm font-bold uppercase tracking-wider text-gray-400 hover:text-brand transition-colors py-1">Serviços</a>
+            <a href="#metodo" class="mobile-link text-sm font-bold uppercase tracking-wider text-gray-400 hover:text-brand transition-colors py-1">Método</a>
+          </nav>
+          <div class="pt-4 border-t border-white/5">
+            <button class="open-modal-btn w-full flex items-center justify-center gap-2 rounded-xl bg-brand py-3 text-xs font-extrabold text-darkBg hover:bg-brand-dark transition-all" data-service="Geral">
+              <i data-lucide="phone-call" class="h-3.5 w-3.5"></i>
+              <span>Consultoria Gratuita</span>
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </header>
+
+    <!-- SECTION 1: HERO -->
+    <section class="relative min-h-screen flex items-center pt-32 pb-20 bg-dot-grid">
+      <!-- Glow background grid -->
+      <div class="absolute inset-0 bg-gradient-to-b from-transparent via-[#0B0F19]/80 to-[#0B0F19] pointer-events-none"></div>
+
+      <div class="mx-auto max-w-7xl px-6 w-full relative z-10">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+          
+          <!-- Hero Text -->
+          <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+            <div class="inline-flex items-center gap-2 rounded-full border border-brand/25 bg-brand/5 px-4 py-1.5 animate-float">
+              <i data-lucide="sparkles" class="h-3.5 w-3.5 text-brand"></i>
+              <span class="text-[10px] font-bold uppercase tracking-widest text-brand">Estratégia Guiada por Inteligência de Dados</span>
+            </div>
+
+            <h1 class="text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight text-white leading-[1.1] font-sans">
+              Estratégia, dados e transparência.
+              <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand to-emerald-400">
+                Aceleramos o crescimento
+              </span> 
+              da sua empresa.
+            </h1>
+
+            <p class="text-base sm:text-lg text-gray-400 max-w-2xl mx-auto lg:mx-0 leading-relaxed font-body">
+              Especialistas em SEO e GEO Local para dominar as buscas da sua região. Posicionamos sua empresa no topo do Google Meu Negócio e otimizamos suas campanhas de tráfego pago para captar os clientes mais qualificados. Sem falsas promessas, apenas engenharia de tráfego baseada em inteligência geolocalizada.
+            </p>
+
+            <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-4">
+              <a href="https://api.whatsapp.com/send?phone=5511999999999&text=Ol%C3%A1!%20Gostaria%20de%20falar%20com%20um%20consultor%20da%20Cedrus." target="_blank" class="pulse-glow w-full sm:w-auto flex items-center justify-center gap-3 rounded-xl bg-brand hover:bg-brand-dark px-8 py-4 text-sm font-black text-darkBg shadow-[0_0_20px_rgba(16,185,129,0.3)] transition-all duration-300">
+                <i data-lucide="message-square" class="h-5 w-5"></i>
+                <span>Falar com um Consultor no WhatsApp</span>
+              </a>
+
+              <button class="open-modal-btn w-full sm:w-auto flex items-center justify-center gap-2 rounded-xl border border-white/10 hover:border-brand/40 bg-white/5 hover:bg-white/10 px-8 py-4 text-sm font-bold text-white transition-all duration-300" data-service="Geral">
+                <span>Rodar Diagnóstico de Busca por IA</span>
+                <i data-lucide="shield-alert" class="h-4 w-4 text-brand"></i>
+              </button>
+            </div>
+
+            <div class="flex flex-wrap items-center justify-center lg:justify-start gap-6 pt-6 text-xs text-gray-400 font-semibold">
+              <span class="flex items-center gap-1.5">
+                <i data-lucide="check-circle" class="h-4 w-4 text-brand"></i> Auditoria de Maps Regional
+              </span>
+              <span class="flex items-center gap-1.5">
+                <i data-lucide="check-circle" class="h-4 w-4 text-brand"></i> Sem Contratos Abusivos
+              </span>
+              <span class="flex items-center gap-1.5">
+                <i data-lucide="check-circle" class="h-4 w-4 text-brand"></i> Relatório em Tempo Real
+              </span>
+            </div>
+          </div>
+
+          <!-- Hero Illustration / Interactive Bento Widget -->
+          <div class="lg:col-span-5 relative mt-8 lg:mt-0">
+            <div class="glassmorphism rounded-3xl p-6 sm:p-8 border border-white/5 shadow-2xl relative overflow-hidden animate-float">
+              <!-- Visual ornament -->
+              <div class="absolute -right-12 -top-12 w-32 h-32 rounded-full bg-brand/10 blur-2xl"></div>
+              
+              <div class="flex items-center justify-between mb-6">
+                <div class="flex items-center gap-2">
+                  <div class="h-2.5 w-2.5 rounded-full bg-red-500 animate-pulse"></div>
+                  <span class="text-[10px] font-bold uppercase tracking-widest text-gray-400">Diagnóstico Presença Maps</span>
+                </div>
+                <span class="text-[11px] font-extrabold text-brand bg-brand/10 px-2 py-0.5 rounded-md">STATUS: CRÍTICO</span>
+              </div>
+
+              <!-- Animated Scan UI Preview -->
+              <div class="space-y-4">
+                <div class="bg-[#0D111C] rounded-2xl p-4 border border-white/5 flex items-center justify-between">
+                  <div>
+                    <span class="block text-[9px] font-bold uppercase tracking-wider text-gray-500">Média de Posicionamento</span>
+                    <span class="text-xl font-black text-white font-sans">Fora do Top 10</span>
+                  </div>
+                  <div class="h-10 w-10 rounded-xl bg-red-500/10 flex items-center justify-center text-red-400">
+                    <i data-lucide="trending-down" class="h-5 w-5"></i>
+                  </div>
+                </div>
+
+                <div class="bg-[#0D111C] rounded-2xl p-4 border border-white/5">
+                  <div class="flex justify-between items-center mb-1.5">
+                    <span class="text-[10px] font-bold uppercase tracking-wider text-gray-500">Exposição Geográfica (Raio 10km)</span>
+                    <span class="text-xs font-black text-red-400">14% de Cobertura</span>
+                  </div>
+                  <div class="w-full bg-gray-800 h-2 rounded-full overflow-hidden">
+                    <div class="bg-red-500 h-full rounded-full" style="width: 14%;"></div>
+                  </div>
+                </div>
+
+                <!-- Live callout -->
+                <div class="bg-brand/5 border border-brand/20 rounded-2xl p-4 flex gap-3.5">
+                  <div class="h-9 w-9 shrink-0 rounded-xl bg-brand/10 flex items-center justify-center text-brand">
+                    <i data-lucide="zap" class="h-5 w-5 text-brand animate-pulse"></i>
+                  </div>
+                  <div>
+                    <span class="block text-xs font-bold text-white mb-0.5">Metodologia Cedrus</span>
+                    <p class="text-[11px] leading-relaxed text-gray-400">
+                      Nossa consultoria resolve esse gargalo regional em até 30 dias com inteligência georreferenciada.
+                    </p>
+                  </div>
+                </div>
+
+                <button class="open-modal-btn w-full py-3.5 rounded-xl bg-brand/10 hover:bg-brand text-brand hover:text-darkBg border border-brand/20 hover:border-brand font-black text-xs uppercase tracking-widest transition-all duration-300 shadow-lg" data-service="Geral">
+                  Diagnosticar Minha Empresa Agora
+                </button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 2: AUTHORITY BAR -->
+    <section class="relative z-10 w-full bg-[#0D111C] border-y border-white/5 py-8">
+      <div class="mx-auto max-w-7xl px-6">
+        <div class="grid grid-cols-1 gap-8 lg:grid-cols-12 lg:items-center">
+          
+          <!-- Clients Badges Section -->
+          <div class="lg:col-span-5 flex flex-col justify-center items-center lg:items-start">
+            <span class="text-[9px] font-bold uppercase tracking-widest text-gray-400 mb-4 block text-center lg:text-left">
+              EMPRESAS QUE ACREDITAM NA CEDRUS:
+            </span>
+            <div class="flex flex-wrap items-center justify-center lg:justify-start gap-6 sm:gap-8 opacity-70 grayscale hover:grayscale-0 transition-all duration-500">
+              <!-- Client 1 -->
+              <div class="flex items-center gap-2">
+                <i data-lucide="activity" class="h-6 w-6 text-brand"></i>
+                <span class="text-sm font-extrabold text-white font-sans tracking-tight">Clínica<span class="text-brand">Med</span></span>
+              </div>
+              <!-- Client 2 -->
+              <div class="flex items-center gap-2">
+                <i data-lucide="scale" class="h-6 w-6 text-brand"></i>
+                <span class="text-sm font-extrabold text-white font-sans tracking-tight">Advocacia<span class="text-brand">Pro</span></span>
+              </div>
+              <!-- Client 3 -->
+              <div class="flex items-center gap-2">
+                <i data-lucide="store" class="h-6 w-6 text-brand"></i>
+                <span class="text-sm font-extrabold text-white font-sans tracking-tight">Grupo<span class="text-brand">Varejo</span></span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Partners Carousel / List -->
+          <div class="lg:col-span-7 flex flex-col justify-center border-t border-white/5 lg:border-t-0 lg:border-l lg:pl-10 pt-6 lg:pt-0">
+            <span class="text-[9px] font-bold uppercase tracking-widest text-gray-400 mb-3 block text-center lg:text-left">
+              TECNOLOGIAS E MÉTODOS DE RASTREAMENTO QUE UTILIZAMOS:
+            </span>
+            <div class="flex flex-wrap justify-center lg:justify-start items-center gap-3">
+              <span class="px-3.5 py-1.5 rounded-lg bg-[#070A13] border border-white/5 text-[10px] font-extrabold text-white/80">Google Tag Manager</span>
+              <span class="px-3.5 py-1.5 rounded-lg bg-[#070A13] border border-white/5 text-[10px] font-extrabold text-white/80">Google Analytics 4</span>
+              <span class="px-3.5 py-1.5 rounded-lg bg-[#070A13] border border-white/5 text-[10px] font-extrabold text-white/80">Clarity heatmap</span>
+              <span class="px-3.5 py-1.5 rounded-lg bg-[#070A13] border border-white/5 text-[10px] font-extrabold text-white/80">API de Conversões</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 3: METRICS BLOCK -->
+    <section id="metricas" class="py-24 bg-[#0B0F19] relative border-b border-white/5">
+      <div class="mx-auto max-w-7xl px-6 relative z-10">
+        
+        <div class="max-w-3xl mx-auto text-center mb-16">
+          <span class="text-xs font-bold uppercase tracking-widest text-brand bg-brand/5 border border-brand/20 px-3.5 py-1 rounded-full inline-block mb-3">
+            Garantia de Entrega & Performance
+          </span>
+          <h2 class="text-3xl sm:text-4xl font-extrabold tracking-tight text-white font-sans">
+            Resultados Consolidados com Inteligência Prática
+          </h2>
+          <p class="mt-4 text-gray-400 font-medium max-w-xl mx-auto text-sm">
+            Nossos números refletem nosso compromisso com a verdade comercial. Otimizamos sua marca onde a intenção de compra é máxima.
+          </p>
+        </div>
+
+        <!-- Metrics Grid -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          
+          <!-- Card 1 -->
+          <div class="glassmorphism rounded-2xl p-6 border border-white/5 hover:border-brand/20 transition-all duration-300 hover:shadow-[0_10px_30px_rgba(16,185,129,0.05)]">
+            <div class="h-10 w-10 rounded-xl bg-brand/5 border border-brand/10 flex items-center justify-center text-brand mb-4">
+              <i data-lucide="trending-up" class="h-5 w-5"></i>
+            </div>
+            <span class="block text-3xl font-extrabold text-white tracking-tight font-sans">
+              +40
+            </span>
+            <span class="block text-xs font-bold text-gray-300 mt-1 uppercase tracking-wider">
+              empresas atendidas
+            </span>
+            <p class="text-[11px] text-gray-400 mt-2 leading-relaxed">
+              Tracionando negócios regionais com precisão cirúrgica em estratégias de Google Ads, Meta Ads e SEO Local.
+            </p>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="glassmorphism rounded-2xl p-6 border border-white/5 hover:border-brand/20 transition-all duration-300 hover:shadow-[0_10px_30px_rgba(16,185,129,0.05)]">
+            <div class="h-10 w-10 rounded-xl bg-brand/5 border border-brand/10 flex items-center justify-center text-brand mb-4">
+              <i data-lucide="percent" class="h-5 w-5"></i>
+            </div>
+            <span class="block text-3xl font-extrabold text-white tracking-tight font-sans">
+              +84%
+            </span>
+            <span class="block text-xs font-bold text-gray-300 mt-1 uppercase tracking-wider">
+              aumento em conversões
+            </span>
+            <p class="text-[11px] text-gray-400 mt-2 leading-relaxed">
+              Média histórica de ganho em captação de leads e ligações qualificadas nas primeiras 6 semanas.
+            </p>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="glassmorphism rounded-2xl p-6 border border-white/5 hover:border-brand/20 transition-all duration-300 hover:shadow-[0_10px_30px_rgba(16,185,129,0.05)]">
+            <div class="h-10 w-10 rounded-xl bg-brand/5 border border-brand/10 flex items-center justify-center text-brand mb-4">
+              <i data-lucide="bar-chart-3" class="h-5 w-5"></i>
+            </div>
+            <span class="block text-3xl font-extrabold text-white tracking-tight font-sans">
+              100%
+            </span>
+            <span class="block text-xs font-bold text-gray-300 mt-1 uppercase tracking-wider">
+              Transparência Ativa
+            </span>
+            <p class="text-[11px] text-gray-400 mt-2 leading-relaxed">
+              Acesso irrestrito a relatórios e dashboards em tempo real. Você vê cada centavo investido.
+            </p>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="glassmorphism rounded-2xl p-6 border border-white/5 hover:border-brand/20 transition-all duration-300 hover:shadow-[0_10px_30px_rgba(16,185,129,0.05)]">
+            <div class="h-10 w-10 rounded-xl bg-brand/5 border border-brand/10 flex items-center justify-center text-brand mb-4">
+              <i data-lucide="history" class="h-5 w-5"></i>
+            </div>
+            <span class="block text-3xl font-extrabold text-white tracking-tight font-sans">
+              3 Anos
+            </span>
+            <span class="block text-xs font-bold text-gray-300 mt-1 uppercase tracking-wider">
+              Solidificando marcas
+            </span>
+            <p class="text-[11px] text-gray-400 mt-2 leading-relaxed">
+              Atuação consolidada no ecossistema digital, lapidando estratégias reais de captação e escala.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION 4: ASYMMETRIC SERVICES GRID -->
+    <section id="servicos" class="py-24 bg-[#0D111C] relative">
+      <div class="absolute inset-0 bg-dot-grid opacity-15 pointer-events-none"></div>
+
+      <div class="mx-auto max-w-7xl px-6 relative z-10">
+        
+        <div class="mb-16 text-center max-w-3xl mx-auto">
+          <span class="text-xs font-bold uppercase tracking-widest text-brand bg-brand/5 border border-brand/20 px-3.5 py-1 rounded-full inline-block mb-3">
+            Nossa Engenharia de Performance
+          </span>
+          <h2 class="text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tight text-white leading-[1.1] font-sans">
+            Soluções de Escala Comercial <br class="hidden sm:block" />
+            <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand to-emerald-400">
+              Desenhadas para Converter
+            </span>
+          </h2>
+          <p class="mt-4 text-gray-400 text-sm max-w-xl mx-auto font-medium">
+            Desenvolvemos o ecossistema completo para interceptar o cliente ideal no momento exato em que ele busca sua solução.
+          </p>
+        </div>
+
+        <!-- Asymmetric Grid System on Desktop -->
+        <div class="grid grid-cols-1 md:grid-cols-12 gap-8 items-stretch">
+          
+          <!-- Card 1: Gestão de Tráfego Pago (Cols 7) -->
+          <div class="framer-scroll-reveal opacity-0 translate-y-8 md:col-span-7 glassmorphism rounded-3xl p-8 border border-white/5 flex flex-col justify-between group hover:border-brand/35 transition-all duration-500 hover:-translate-y-1.5 hover:shadow-[0_15px_40px_rgba(16,185,129,0.08)]">
+            <div>
+              <div class="flex items-center justify-between mb-8">
+                <div class="h-14 w-14 rounded-2xl bg-brand/10 border border-brand/20 flex items-center justify-center text-brand group-hover:bg-brand group-hover:text-darkBg transition-all duration-500 shadow-inner">
+                  <i data-lucide="trending-up" class="h-6 w-6"></i>
+                </div>
+                <span class="rounded-xl bg-brand/10 px-3.5 py-1 text-[9px] font-black text-brand border border-brand/15 uppercase tracking-widest">
+                  Escala Imediata
+                </span>
+              </div>
+              <h3 class="text-2xl font-extrabold text-white group-hover:text-brand transition-colors duration-300 font-sans">
+                Gestão de Tráfego Pago
+              </h3>
+              <p class="mt-3 text-sm text-gray-400 leading-relaxed font-body font-medium">
+                Sua empresa em destaque no Google Ads e Meta Ads com foco total em ROI. Criamos campanhas cirúrgicas mapeando as palavras-chave com maior intenção de compra para direcionar leads quentes diretamente ao seu comercial via WhatsApp e telefone.
+              </p>
+              
+              <ul class="mt-6 space-y-2.5">
+                <li class="flex items-center gap-3 text-xs text-gray-400 font-bold">
+                  <i data-lucide="check-circle" class="h-4 w-4 text-brand shrink-0"></i> Exclusão inteligente de termos irrelevantes
+                </li>
+                <li class="flex items-center gap-3 text-xs text-gray-400 font-bold">
+                  <i data-lucide="check-circle" class="h-4 w-4 text-brand shrink-0"></i> Anúncios persuasivos focados em dor e desejo
+                </li>
+                <li class="flex items-center gap-3 text-xs text-gray-400 font-bold">
+                  <i data-lucide="check-circle" class="h-4 w-4 text-brand shrink-0"></i> Rastreamento integrado de ligações e formulários
+                </li>
+              </ul>
+            </div>
+            
+            <div class="mt-8 pt-6 border-t border-white/5 flex items-center justify-between">
+              <button class="open-modal-btn flex items-center gap-2 text-xs font-black text-brand hover:text-white transition-colors" data-service="Gestão de Tráfego Pago">
+                <span>Solicitar Proposta Comercial</span>
+                <i data-lucide="arrow-right" class="h-4 w-4"></i>
+              </button>
+              <span class="text-xs font-mono font-bold text-gray-600">01</span>
+            </div>
+          </div>
+
+          <!-- Card 2: SEO e Posicionamento (Cols 5) -->
+          <div class="framer-scroll-reveal opacity-0 translate-y-8 md:col-span-5 glassmorphism rounded-3xl p-8 border border-white/5 flex flex-col justify-between group hover:border-brand/35 transition-all duration-500 hover:-translate-y-1.5 hover:shadow-[0_15px_40px_rgba(16,185,129,0.08)]">
+            <div>
+              <div class="flex items-center justify-between mb-8">
+                <div class="h-14 w-14 rounded-2xl bg-brand/10 border border-brand/20 flex items-center justify-center text-brand group-hover:bg-brand group-hover:text-darkBg transition-all duration-500 shadow-inner">
+                  <i data-lucide="search" class="h-6 w-6"></i>
+                </div>
+                <span class="rounded-xl bg-brand/10 px-3.5 py-1 text-[9px] font-black text-brand border border-brand/15 uppercase tracking-widest">
+                  Orgânico Consolidado
+                </span>
+              </div>
+              <h3 class="text-2xl font-extrabold text-white group-hover:text-brand transition-colors duration-300 font-sans">
+                SEO & Posicionamento
+              </h3>
+              <p class="mt-3 text-sm text-gray-400 leading-relaxed font-body font-medium">
+                Conquiste a primeira página do Google de forma orgânica e duradoura. Mapeamos os termos mais valiosos do seu setor para gerar autoridade regional constante, blindando seu faturamento sem depender exclusivamente de anúncios pagos.
+              </p>
+              
+              <ul class="mt-6 space-y-2.5">
+                <li class="flex items-center gap-3 text-xs text-gray-400 font-bold">
+                  <i data-lucide="check-circle" class="h-4 w-4 text-brand shrink-0"></i> Auditoria de lacunas de busca comercial
+                </li>
+                <li class="flex items-center gap-3 text-xs text-gray-400 font-bold">
+                  <i data-lucide="check-circle" class="h-4 w-4 text-brand shrink-0"></i> Produção de conteúdo otimizado por dados
+                </li>
+              </ul>
+            </div>
+            
+            <div class="mt-8 pt-6 border-t border-white/5 flex items-center justify-between">
+              <button class="open-modal-btn flex items-center gap-2 text-xs font-black text-brand hover:text-white transition-colors" data-service="SEO & Posicionamento">
+                <span>Solicitar Proposta Comercial</span>
+                <i data-lucide="arrow-right" class="h-4 w-4"></i>
+              </button>
+              <span class="text-xs font-mono font-bold text-gray-600">02</span>
+            </div>
+          </div>
+
+          <!-- Card 3: Google Meu Negócio (Cols 5) -->
+          <div class="framer-scroll-reveal opacity-0 translate-y-8 md:col-span-5 glassmorphism rounded-3xl p-8 border border-white/5 flex flex-col justify-between group hover:border-brand/35 transition-all duration-500 hover:-translate-y-1.5 hover:shadow-[0_15px_40px_rgba(16,185,129,0.08)]">
+            <div>
+              <div class="flex items-center justify-between mb-8">
+                <div class="h-14 w-14 rounded-2xl bg-brand/10 border border-brand/20 flex items-center justify-center text-brand group-hover:bg-brand group-hover:text-darkBg transition-all duration-500 shadow-inner">
+                  <i data-lucide="map-pin" class="h-6 w-6"></i>
+                </div>
+                <span class="rounded-xl bg-brand/10 px-3.5 py-1 text-[9px] font-black text-brand border border-brand/15 uppercase tracking-widest">
+                  Líder Local
+                </span>
+              </div>
+              <h3 class="text-2xl font-extrabold text-white group-hover:text-brand transition-colors duration-300 font-sans">
+                Google Meu Negócio (Maps)
+              </h3>
+              <p class="mt-3 text-sm text-gray-400 leading-relaxed font-body font-medium">
+                Seja a primeira opção na sua região geográfica. Implementamos otimização georreferenciada ativa no Maps, geocodificação de mídias e funil de incentivo a avaliações 5 estrelas para atrair chamadas diárias e visitas à sua empresa.
+              </p>
+              
+              <ul class="mt-6 space-y-2.5">
+                <li class="flex items-center gap-3 text-xs text-gray-400 font-bold">
+                  <i data-lucide="check-circle" class="h-4 w-4 text-brand shrink-0"></i> Georreferenciamento de fotos e metadados
+                </li>
+                <li class="flex items-center gap-3 text-xs text-gray-400 font-bold">
+                  <i data-lucide="check-circle" class="h-4 w-4 text-brand shrink-0"></i> Defesa ativa contra concorrência desleal
+                </li>
+              </ul>
+            </div>
+            
+            <div class="mt-8 pt-6 border-t border-white/5 flex items-center justify-between">
+              <button class="open-modal-btn flex items-center gap-2 text-xs font-black text-brand hover:text-white transition-colors" data-service="Google Meu Negócio">
+                <span>Solicitar Proposta Comercial</span>
+                <i data-lucide="arrow-right" class="h-4 w-4"></i>
+              </button>
+              <span class="text-xs font-mono font-bold text-gray-600">03</span>
+            </div>
+          </div>
+
+          <!-- Card 4: Desenvolvimento Web (Cols 7) -->
+          <div class="framer-scroll-reveal opacity-0 translate-y-8 md:col-span-7 glassmorphism rounded-3xl p-8 border border-white/5 flex flex-col justify-between group hover:border-brand/35 transition-all duration-500 hover:-translate-y-1.5 hover:shadow-[0_15px_40px_rgba(16,185,129,0.08)]">
+            <div>
+              <div class="flex items-center justify-between mb-8">
+                <div class="h-14 w-14 rounded-2xl bg-brand/10 border border-brand/20 flex items-center justify-center text-brand group-hover:bg-brand group-hover:text-darkBg transition-all duration-500 shadow-inner">
+                  <i data-lucide="code" class="h-6 w-6"></i>
+                </div>
+                <span class="rounded-xl bg-brand/10 px-3.5 py-1 text-[9px] font-black text-brand border border-brand/15 uppercase tracking-widest">
+                  Performance Extrema
+                </span>
+              </div>
+              <h3 class="text-2xl font-extrabold text-white group-hover:text-brand transition-colors duration-300 font-sans">
+                Desenvolvimento Web Premium
+              </h3>
+              <p class="mt-3 text-sm text-gray-400 leading-relaxed font-body font-medium">
+                Landing pages, sites institucionais e portais corporativos ultravelozes (carregamento &lt; 1s). Desenvolvidos com design moderno, layout mobile-first impecável e copywriting altamente persuasiva focado em converter cliques em leads engajados.
+              </p>
+              
+              <ul class="mt-6 space-y-2.5">
+                <li class="flex items-center gap-3 text-xs text-gray-400 font-bold">
+                  <i data-lucide="check-circle" class="h-4 w-4 text-brand shrink-0"></i> SEO técnico estrutural inserido no código-fonte
+                </li>
+                <li class="flex items-center gap-3 text-xs text-gray-400 font-bold">
+                  <i data-lucide="check-circle" class="h-4 w-4 text-brand shrink-0"></i> Integração com pixels de rastreamento e analytics
+                </li>
+                <li class="flex items-center gap-3 text-xs text-gray-400 font-bold">
+                  <i data-lucide="check-circle" class="h-4 w-4 text-brand shrink-0"></i> Velocidade extrema otimizada para Core Web Vitals
+                </li>
+              </ul>
+            </div>
+            
+            <div class="mt-8 pt-6 border-t border-white/5 flex items-center justify-between">
+              <button class="open-modal-btn flex items-center gap-2 text-xs font-black text-brand hover:text-white transition-colors" data-service="Desenvolvimento Web Premium">
+                <span>Solicitar Proposta Comercial</span>
+                <i data-lucide="arrow-right" class="h-4 w-4"></i>
+              </button>
+              <span class="text-xs font-mono font-bold text-gray-600">04</span>
+            </div>
+          </div>
+
+          <!-- Card 5: Vídeos Profissionais (Cols 12) -->
+          <div class="framer-scroll-reveal opacity-0 translate-y-8 md:col-span-12 glassmorphism rounded-3xl p-8 border border-white/5 flex flex-col lg:flex-row justify-between items-start lg:items-center gap-8 group hover:border-brand/35 transition-all duration-500 hover:-translate-y-1.5 hover:shadow-[0_15px_40px_rgba(16,185,129,0.08)]">
+            <div class="flex-1">
+              <div class="flex items-center justify-between lg:justify-start lg:gap-4 mb-6">
+                <div class="h-14 w-14 rounded-2xl bg-brand/10 border border-brand/20 flex items-center justify-center text-brand group-hover:bg-brand group-hover:text-darkBg transition-all duration-500 shadow-inner shrink-0">
+                  <i data-lucide="video" class="h-6 w-6"></i>
+                </div>
+                <span class="rounded-xl bg-brand/10 px-3.5 py-1 text-[9px] font-black text-brand border border-brand/15 uppercase tracking-widest">
+                  Audiovisual de Alto Impacto
+                </span>
+              </div>
+              <h3 class="text-2xl font-extrabold text-white group-hover:text-brand transition-colors duration-300 font-sans">
+                Vídeos Profissionais (Videomaker & Storymaker)
+              </h3>
+              <p class="mt-3 text-sm text-gray-400 leading-relaxed font-body font-medium max-w-3xl">
+                Captação e edição profissional de vídeos para acelerar as vendas e o posicionamento do seu negócio. Nossa equipe especialista em videomaker e storymaker produz conteúdos estratégicos de alta conversão, Reels, Shorts e anúncios que capturam a atenção e geram conexão imediata com o público.
+              </p>
+              
+              <ul class="mt-6 grid grid-cols-1 md:grid-cols-3 gap-3">
+                <li class="flex items-center gap-3 text-xs text-gray-400 font-bold">
+                  <i data-lucide="check-circle" class="h-4 w-4 text-brand shrink-0"></i> Captação presencial e edição para Reels, Shorts e Anúncios
+                </li>
+                <li class="flex items-center gap-3 text-xs text-gray-400 font-bold">
+                  <i data-lucide="check-circle" class="h-4 w-4 text-brand shrink-0"></i> Cobertura de Storymaker para engajamento diário
+                </li>
+                <li class="flex items-center gap-3 text-xs text-gray-400 font-bold">
+                  <i data-lucide="check-circle" class="h-4 w-4 text-brand shrink-0"></i> Roteiros persuasivos focados na conversão de clientes
+                </li>
+              </ul>
+            </div>
+            
+            <div class="w-full lg:w-auto pt-6 lg:pt-0 lg:pl-8 border-t lg:border-t-0 lg:border-l border-white/5 flex lg:flex-col items-center justify-between lg:justify-center gap-4 shrink-0">
+              <button class="open-modal-btn flex items-center gap-2 text-xs font-black text-brand hover:text-white transition-colors" data-service="Vídeos Profissionais">
+                <span>Solicitar Proposta Comercial</span>
+                <i data-lucide="arrow-right" class="h-4 w-4"></i>
+              </button>
+              <span class="text-xs font-mono font-bold text-gray-600">05</span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION 5: THE CEDRUS METHOD (TIMELINE) -->
+    <section id="metodo" class="py-24 bg-[#0B0F19] relative border-y border-white/5">
+      <div class="mx-auto max-w-7xl px-6 relative z-10">
+        
+        <div class="max-w-3xl mx-auto text-center mb-20">
+          <span class="text-xs font-bold uppercase tracking-widest text-brand bg-brand/5 border border-brand/20 px-3.5 py-1 rounded-full inline-block mb-3">
+            Fluxo de Trabalho Transparente
+          </span>
+          <h2 class="text-3xl sm:text-4xl font-extrabold tracking-tight text-white font-sans">
+            Método Cedrus: Tráfego e Dados com Transparência
+          </h2>
+          <p class="mt-4 text-gray-400 text-sm max-w-xl mx-auto font-medium">
+            Entenda como construímos sua estrutura de aquisição local previsível de forma organizada, ética e sem teorias vazias.
+          </p>
+        </div>
+
+        <!-- Vertical Timeline (Responsive) -->
+        <div class="relative max-w-4xl mx-auto">
+          
+          <!-- Middle Line connector -->
+          <div class="absolute left-4 md:left-1/2 top-0 bottom-0 w-[2px] bg-white/5 -translate-x-1/2"></div>
+
+          <!-- Step 1 -->
+          <div class="relative flex flex-col md:flex-row md:justify-between items-start md:items-center mb-16 group">
+            <div class="flex items-center md:absolute md:left-1/2 md:-translate-x-1/2 z-10 mb-4 md:mb-0">
+              <div class="flex h-10 w-10 items-center justify-center rounded-full bg-[#111827] border border-brand text-brand font-mono font-bold text-sm shadow-[0_0_15px_rgba(16,185,129,0.2)]">
+                01
+              </div>
+            </div>
+            <div class="w-full md:w-[44%] pl-10 md:pl-0 md:text-right">
+              <div class="glassmorphism rounded-2xl p-6 border border-white/5 hover:border-brand/20 transition-all duration-300">
+                <span class="text-[10px] font-black uppercase tracking-widest text-brand block mb-1">Passo Inicial</span>
+                <h3 class="text-lg font-extrabold text-white font-sans">Imersão e Diagnóstico</h3>
+                <p class="mt-2 text-xs text-gray-400 leading-relaxed font-medium">
+                  Analisamos minuciosamente o seu cenário comercial atual, gargalos de conversão no site, posicionamento regional do Maps e as falhas cruciais deixadas pelos seus concorrentes.
+                </p>
+              </div>
+            </div>
+            <div class="hidden md:block w-[44%]"></div>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="relative flex flex-col md:flex-row md:justify-between items-start md:items-center mb-16 group">
+            <div class="flex items-center md:absolute md:left-1/2 md:-translate-x-1/2 z-10 mb-4 md:mb-0">
+              <div class="flex h-10 w-10 items-center justify-center rounded-full bg-[#111827] border border-brand text-brand font-mono font-bold text-sm shadow-[0_0_15px_rgba(16,185,129,0.2)]">
+                02
+              </div>
+            </div>
+            <div class="hidden md:block w-[44%]"></div>
+            <div class="w-full md:w-[44%] pl-10 md:pl-0">
+              <div class="glassmorphism rounded-2xl p-6 border border-white/5 hover:border-brand/20 transition-all duration-300">
+                <span class="text-[10px] font-black uppercase tracking-widest text-brand block mb-1">Planejamento</span>
+                <h3 class="text-lg font-extrabold text-white font-sans">Planejamento Tático</h3>
+                <p class="mt-2 text-xs text-gray-400 leading-relaxed font-medium">
+                  Estruturamos um mapa de ações exclusivo para os canais de maior conversão imediata, definindo com exatidão a estratégia de lances em anúncios pagos e os termos de busca locais de SEO.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="relative flex flex-col md:flex-row md:justify-between items-start md:items-center mb-16 group">
+            <div class="flex items-center md:absolute md:left-1/2 md:-translate-x-1/2 z-10 mb-4 md:mb-0">
+              <div class="flex h-10 w-10 items-center justify-center rounded-full bg-[#111827] border border-brand text-brand font-mono font-bold text-sm shadow-[0_0_15px_rgba(16,185,129,0.2)]">
+                03
+              </div>
+            </div>
+            <div class="w-full md:w-[44%] pl-10 md:pl-0 md:text-right">
+              <div class="glassmorphism rounded-2xl p-6 border border-white/5 hover:border-brand/20 transition-all duration-300">
+                <span class="text-[10px] font-black uppercase tracking-widest text-brand block mb-1">Mão na Massa</span>
+                <h3 class="text-lg font-extrabold text-white font-sans">Execução Absoluta</h3>
+                <p class="mt-2 text-xs text-gray-400 leading-relaxed font-medium">
+                  Implementamos e monitoramos as campanhas de anúncios, otimizamos seu perfil do Maps com geotags georreferenciadas e desenvolvemos landing pages focadas estritamente em persuasão.
+                </p>
+              </div>
+            </div>
+            <div class="hidden md:block w-[44%]"></div>
+          </div>
+
+          <!-- Step 4 -->
+          <div class="relative flex flex-col md:flex-row md:justify-between items-start md:items-center group">
+            <div class="flex items-center md:absolute md:left-1/2 md:-translate-x-1/2 z-10 mb-4 md:mb-0">
+              <div class="flex h-10 w-10 items-center justify-center rounded-full bg-[#111827] border border-brand text-brand font-mono font-bold text-sm shadow-[0_0_15px_rgba(16,185,129,0.2)]">
+                04
+              </div>
+            </div>
+            <div class="hidden md:block w-[44%]"></div>
+            <div class="w-full md:w-[44%] pl-10 md:pl-0">
+              <div class="glassmorphism rounded-2xl p-6 border border-white/5 hover:border-brand/20 transition-all duration-300">
+                <span class="text-[10px] font-black uppercase tracking-widest text-brand block mb-1">Prestação de Contas</span>
+                <h3 class="text-lg font-extrabold text-white font-sans">Transparência Total</h3>
+                <p class="mt-2 text-xs text-gray-400 leading-relaxed font-medium">
+                  Acompanhamento irrestrito do seu investimento através de dashboards interativos em tempo real e reuniões de alinhamento com especialistas para revisar taxas e volume de faturamento.
+                </p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION 5.6: TESTIMONIALS -->
+    <section id="depoimentos" class="py-24 bg-[#0B0F19] relative border-t border-white/5">
+      <div class="absolute inset-0 bg-dot-grid opacity-15 pointer-events-none"></div>
+      
+      <div class="mx-auto max-w-7xl px-6 relative z-10">
+        
+        <div class="text-center mb-16 max-w-3xl mx-auto">
+          <span class="text-xs font-bold uppercase tracking-widest text-brand bg-brand/5 border border-brand/20 px-3.5 py-1 rounded-full inline-block mb-3">
+            Prova Social
+          </span>
+          <h2 class="text-3xl sm:text-4xl font-extrabold tracking-tight text-white font-sans">
+            Empresas que Escalaram com a Cedrus
+          </h2>
+          <p class="mt-4 text-gray-400 text-sm max-w-xl mx-auto font-medium">
+            Resultados reais de quem confiou na nossa engenharia de tráfego para multiplicar o faturamento e dominar a região.
+          </p>
+        </div>
+
+        <!-- Video Testimonials Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+          
+          <!-- Video 1 -->
+          <div class="framer-scroll-reveal opacity-0 translate-y-8 glassmorphism rounded-3xl p-4 border border-white/5 hover:border-brand/20 transition-all duration-300 hover:shadow-[0_15px_40px_rgba(16,185,129,0.05)] relative group">
+            <div class="relative w-full rounded-2xl overflow-hidden bg-black/40 aspect-video border border-white/10 group-hover:border-brand/20 transition-colors">
+              <iframe 
+                width="100%" 
+                height="100%" 
+                src="https://www.youtube.com/embed/heakE-Ch060?rel=0&showinfo=0&modestbranding=1" 
+                title="Depoimento de Cliente" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen
+                class="absolute inset-0 w-full h-full object-cover rounded-2xl">
+              </iframe>
+            </div>
+            <div class="px-2 pt-5 pb-2">
+              <div class="flex items-center gap-1 mb-2">
+                <i data-lucide="star" class="h-3.5 w-3.5 fill-brand text-brand"></i>
+                <i data-lucide="star" class="h-3.5 w-3.5 fill-brand text-brand"></i>
+                <i data-lucide="star" class="h-3.5 w-3.5 fill-brand text-brand"></i>
+                <i data-lucide="star" class="h-3.5 w-3.5 fill-brand text-brand"></i>
+                <i data-lucide="star" class="h-3.5 w-3.5 fill-brand text-brand"></i>
+              </div>
+              <p class="text-white font-bold text-base mb-1">Impacto Real no Faturamento</p>
+              <p class="text-gray-400 text-xs uppercase tracking-widest font-medium">Cliente Cedrus</p>
+            </div>
+          </div>
+
+          <!-- Video 2 -->
+          <div class="framer-scroll-reveal opacity-0 translate-y-8 glassmorphism rounded-3xl p-4 border border-white/5 hover:border-brand/20 transition-all duration-300 hover:shadow-[0_15px_40px_rgba(16,185,129,0.05)] relative group md:-translate-y-4">
+            <div class="relative w-full rounded-2xl overflow-hidden bg-black/40 aspect-video border border-white/10 group-hover:border-brand/20 transition-colors">
+              <iframe 
+                width="100%" 
+                height="100%" 
+                src="https://www.youtube.com/embed/5j15csE2QBo?rel=0&showinfo=0&modestbranding=1" 
+                title="Depoimento de Cliente" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen
+                class="absolute inset-0 w-full h-full object-cover rounded-2xl">
+              </iframe>
+            </div>
+            <div class="px-2 pt-5 pb-2">
+              <div class="flex items-center gap-1 mb-2">
+                <i data-lucide="star" class="h-3.5 w-3.5 fill-brand text-brand"></i>
+                <i data-lucide="star" class="h-3.5 w-3.5 fill-brand text-brand"></i>
+                <i data-lucide="star" class="h-3.5 w-3.5 fill-brand text-brand"></i>
+                <i data-lucide="star" class="h-3.5 w-3.5 fill-brand text-brand"></i>
+                <i data-lucide="star" class="h-3.5 w-3.5 fill-brand text-brand"></i>
+              </div>
+              <p class="text-white font-bold text-base mb-1">Estratégia de Performance</p>
+              <p class="text-gray-400 text-xs uppercase tracking-widest font-medium">Cliente Cedrus</p>
+            </div>
+          </div>
+
+          <!-- Video 3 -->
+          <div class="framer-scroll-reveal opacity-0 translate-y-8 glassmorphism rounded-3xl p-4 border border-white/5 hover:border-brand/20 transition-all duration-300 hover:shadow-[0_15px_40px_rgba(16,185,129,0.05)] relative group">
+            <div class="relative w-full rounded-2xl overflow-hidden bg-black/40 aspect-video border border-white/10 group-hover:border-brand/20 transition-colors">
+              <iframe 
+                width="100%" 
+                height="100%" 
+                src="https://www.youtube.com/embed/VRhN5loRffY?rel=0&showinfo=0&modestbranding=1" 
+                title="Depoimento de Cliente" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen
+                class="absolute inset-0 w-full h-full object-cover rounded-2xl">
+              </iframe>
+            </div>
+            <div class="px-2 pt-5 pb-2">
+              <div class="flex items-center gap-1 mb-2">
+                <i data-lucide="star" class="h-3.5 w-3.5 fill-brand text-brand"></i>
+                <i data-lucide="star" class="h-3.5 w-3.5 fill-brand text-brand"></i>
+                <i data-lucide="star" class="h-3.5 w-3.5 fill-brand text-brand"></i>
+                <i data-lucide="star" class="h-3.5 w-3.5 fill-brand text-brand"></i>
+                <i data-lucide="star" class="h-3.5 w-3.5 fill-brand text-brand"></i>
+              </div>
+              <p class="text-white font-bold text-base mb-1">Metas Superadas</p>
+              <p class="text-gray-400 text-xs uppercase tracking-widest font-medium">Cliente Cedrus</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:w-2/3 mx-auto gap-8 mb-16">
+          
+          <!-- Video 4 -->
+          <div class="framer-scroll-reveal opacity-0 translate-y-8 glassmorphism rounded-3xl p-4 border border-white/5 hover:border-brand/20 transition-all duration-300 hover:shadow-[0_15px_40px_rgba(16,185,129,0.05)] relative group">
+            <div class="relative w-full rounded-2xl overflow-hidden bg-black/40 aspect-video border border-white/10 group-hover:border-brand/20 transition-colors">
+              <iframe 
+                width="100%" 
+                height="100%" 
+                src="https://www.youtube.com/embed/WSBHvYTHVOs?rel=0&showinfo=0&modestbranding=1" 
+                title="Depoimento de Cliente" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen
+                class="absolute inset-0 w-full h-full object-cover rounded-2xl">
+              </iframe>
+            </div>
+            <div class="px-2 pt-5 pb-2">
+              <div class="flex items-center gap-1 mb-2">
+                <i data-lucide="star" class="h-3.5 w-3.5 fill-brand text-brand"></i>
+                <i data-lucide="star" class="h-3.5 w-3.5 fill-brand text-brand"></i>
+                <i data-lucide="star" class="h-3.5 w-3.5 fill-brand text-brand"></i>
+                <i data-lucide="star" class="h-3.5 w-3.5 fill-brand text-brand"></i>
+                <i data-lucide="star" class="h-3.5 w-3.5 fill-brand text-brand"></i>
+              </div>
+              <p class="text-white font-bold text-base mb-1">Crescimento Previsível</p>
+              <p class="text-gray-400 text-xs uppercase tracking-widest font-medium">Cliente Cedrus</p>
+            </div>
+          </div>
+
+          <!-- Video 5 -->
+          <div class="framer-scroll-reveal opacity-0 translate-y-8 glassmorphism rounded-3xl p-4 border border-white/5 hover:border-brand/20 transition-all duration-300 hover:shadow-[0_15px_40px_rgba(16,185,129,0.05)] relative group md:-translate-y-4">
+            <div class="relative w-full rounded-2xl overflow-hidden bg-black/40 aspect-video border border-white/10 group-hover:border-brand/20 transition-colors">
+              <iframe 
+                width="100%" 
+                height="100%" 
+                src="https://www.youtube.com/embed/WUz_z9FeLb0?rel=0&showinfo=0&modestbranding=1" 
+                title="Depoimento de Cliente" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen
+                class="absolute inset-0 w-full h-full object-cover rounded-2xl">
+              </iframe>
+            </div>
+            <div class="px-2 pt-5 pb-2">
+              <div class="flex items-center gap-1 mb-2">
+                <i data-lucide="star" class="h-3.5 w-3.5 fill-brand text-brand"></i>
+                <i data-lucide="star" class="h-3.5 w-3.5 fill-brand text-brand"></i>
+                <i data-lucide="star" class="h-3.5 w-3.5 fill-brand text-brand"></i>
+                <i data-lucide="star" class="h-3.5 w-3.5 fill-brand text-brand"></i>
+                <i data-lucide="star" class="h-3.5 w-3.5 fill-brand text-brand"></i>
+              </div>
+              <p class="text-white font-bold text-base mb-1">Aumento de Vendas</p>
+              <p class="text-gray-400 text-xs uppercase tracking-widest font-medium">Cliente Cedrus</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Google Reviews Integration -->
+        <div class="mt-8 text-center">
+          <div class="inline-flex flex-col items-center glassmorphism rounded-3xl p-8 sm:p-12 border border-white/5 max-w-3xl mx-auto framer-scroll-reveal opacity-0 translate-y-8 hover:border-brand/20 transition-all duration-300">
+            <div class="flex items-center justify-center gap-4 mb-6">
+              <!-- Google G Logo SVG -->
+              <svg viewBox="0 0 24 24" class="h-10 w-10 shrink-0" xmlns="http://www.w3.org/2000/svg">
+                <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/>
+                <path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/>
+                <path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/>
+                <path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/>
+              </svg>
+              <div class="flex items-center gap-1.5">
+                <i data-lucide="star" class="h-6 w-6 sm:h-8 sm:w-8 fill-yellow-400 text-yellow-400"></i>
+                <i data-lucide="star" class="h-6 w-6 sm:h-8 sm:w-8 fill-yellow-400 text-yellow-400"></i>
+                <i data-lucide="star" class="h-6 w-6 sm:h-8 sm:w-8 fill-yellow-400 text-yellow-400"></i>
+                <i data-lucide="star" class="h-6 w-6 sm:h-8 sm:w-8 fill-yellow-400 text-yellow-400"></i>
+                <i data-lucide="star" class="h-6 w-6 sm:h-8 sm:w-8 fill-yellow-400 text-yellow-400"></i>
+              </div>
+              <span class="text-white font-black text-2xl sm:text-3xl ml-2 font-sans tracking-tight">5.0</span>
+            </div>
+            <h2 class="text-white font-extrabold text-2xl sm:text-3xl mb-4 font-sans">Excelência Comprovada</h2>
+            <p class="text-gray-400 text-sm sm:text-base mb-8 font-medium max-w-lg leading-relaxed">
+              A transparência e os resultados que entregamos aos nossos parceiros refletem diretamente em nossa reputação 5 estrelas.
+            </p>
+            <a href="https://share.google/jM209DZijBCkTIWCT" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center gap-3 px-8 py-4 bg-white text-gray-900 rounded-full font-bold text-sm hover:bg-gray-100 hover:scale-105 transition-all duration-300 shadow-[0_10px_30px_rgba(255,255,255,0.1)] group">
+              Ler todas as avaliações
+              <i data-lucide="external-link" class="h-4 w-4 text-gray-900 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 5.7: ABOUT ME -->
+    <section id="sobre" class="py-24 bg-[#0D111C] relative border-t border-white/5 overflow-hidden">
+      <div class="absolute inset-0 bg-dot-grid opacity-15 pointer-events-none"></div>
+      
+      <div class="mx-auto max-w-6xl px-6 relative z-10">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-20 items-center">
+          
+          <!-- Image Column -->
+          <div class="relative framer-scroll-reveal opacity-0 -translate-x-8">
+            <div class="absolute inset-0 bg-brand/20 blur-3xl rounded-full pointer-events-none transform -translate-y-8"></div>
+            <div class="relative rounded-3xl overflow-hidden border border-white/10 shadow-2xl aspect-[4/5] max-w-sm mx-auto md:ml-auto">
+              <img src="/Jefferson-profile.jpeg?v=new" alt="Jefferson - Cedrus" class="w-full h-full object-cover transition-transform duration-700 hover:scale-105" />
+              <div class="absolute inset-0 bg-gradient-to-t from-[#0D111C] via-transparent to-transparent opacity-90 pointer-events-none"></div>
+            </div>
+            
+            <!-- Floating Badge -->
+            <div class="absolute -bottom-6 right-0 md:-right-6 bg-[#0B0F19] border border-white/10 rounded-2xl p-4 shadow-2xl flex items-center gap-4 z-20">
+              <div class="h-12 w-12 rounded-full bg-brand/10 border border-brand/20 flex items-center justify-center shrink-0">
+                <i data-lucide="target" class="h-6 w-6 text-brand"></i>
+              </div>
+              <div>
+                <span class="block text-white font-bold text-sm">Especialista em</span>
+                <span class="block text-brand text-xs font-black uppercase tracking-widest mt-0.5">SEO Local</span>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Text Column -->
+          <div class="framer-scroll-reveal opacity-0 translate-x-8">
+            <span class="text-xs font-bold uppercase tracking-widest text-brand bg-brand/5 border border-brand/20 px-3.5 py-1 rounded-full inline-block mb-4">
+              Quem está por trás
+            </span>
+            <h2 class="text-3xl sm:text-4xl font-extrabold tracking-tight text-white font-sans mb-6">
+              Jefferson <br class="hidden sm:block" /><span class="text-gray-500 font-medium text-2xl sm:text-3xl mt-1 block">Estrategista Digital</span>
+            </h2>
+            
+            <div class="space-y-5 text-gray-400 text-sm md:text-base leading-relaxed font-medium">
+              <p>
+                Sou <strong class="text-white">Profissional de Marketing</strong> especialista em <strong class="text-white">SEO Local</strong> e Estrategista Digital com forte experiência prática no <strong class="text-white">empreendedorismo regional</strong>. Meu foco é descomplicar a jornada de crescimento para negócios que precisam dominar suas regiões de atuação.
+              </p>
+              <p>
+                Sei o que é estar do lado de lá do balcão. Por isso, nossa abordagem na Cedrus não é sobre vender métricas de vaidade, mas sim aplicar engenharia de tráfego que resulta em ligações reais, visitas ao estabelecimento e previsibilidade de caixa.
+              </p>
+              <ul class="pt-2 space-y-3">
+                <li class="flex items-center gap-3">
+                  <i data-lucide="check-circle-2" class="h-5 w-5 text-brand shrink-0"></i>
+                  <span class="text-sm font-bold text-gray-300">Foco absoluto em conversão (ROI)</span>
+                </li>
+                <li class="flex items-center gap-3">
+                  <i data-lucide="check-circle-2" class="h-5 w-5 text-brand shrink-0"></i>
+                  <span class="text-sm font-bold text-gray-300">Domínio técnico em Buscas Locais e Ads</span>
+                </li>
+                <li class="flex items-center gap-3">
+                  <i data-lucide="check-circle-2" class="h-5 w-5 text-brand shrink-0"></i>
+                  <span class="text-sm font-bold text-gray-300">Atendimento próximo e consultivo</span>
+                </li>
+              </ul>
+            </div>
+            
+          </div>
+          
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 5.5: FAQ -->
+    <section id="faq" class="py-24 bg-[#0D111C] relative border-t border-white/5">
+      <div class="mx-auto max-w-4xl px-6 relative z-10">
+        
+        <div class="text-center mb-16">
+          <span class="text-xs font-bold uppercase tracking-widest text-brand bg-brand/5 border border-brand/20 px-3.5 py-1 rounded-full inline-block mb-3">
+            Perguntas Frequentes
+          </span>
+          <h2 class="text-3xl sm:text-4xl font-extrabold tracking-tight text-white font-sans">
+            Tire Suas Dúvidas
+          </h2>
+        </div>
+
+        <div class="space-y-4">
+          
+          <!-- FAQ 1 (Google Meu Negócio) -->
+          <div class="faq-item glassmorphism rounded-2xl border border-white/5 overflow-hidden transition-all duration-300">
+            <button class="faq-button w-full px-6 py-5 flex items-center justify-between text-left hover:bg-white/[0.02] transition-colors focus:outline-none">
+              <h3 class="text-sm font-bold text-white">Por que minha empresa precisa estar no Perfil de Empresa no Google (Google Meu Negócio)?</h3>
+              <i data-lucide="chevron-down" class="faq-icon h-5 w-5 text-brand transition-transform duration-300 shrink-0 ml-4"></i>
+            </button>
+            <div class="faq-content hidden px-6 pb-6 text-sm text-gray-400 font-medium leading-relaxed">
+              O Perfil de Empresa no Google é a vitrine digital mais importante para negócios locais. É através dele que os clientes da sua região encontram seus serviços ao pesquisarem no Google Maps ou na Busca. Uma ficha bem ranqueada atrai contatos diretos (ligações, mensagens) e visitas presenciais sem que você precise pagar por cada clique.
+            </div>
+          </div>
+
+          <!-- FAQ 2 (Otimização Ficha) -->
+          <div class="faq-item glassmorphism rounded-2xl border border-white/5 overflow-hidden transition-all duration-300">
+            <button class="faq-button w-full px-6 py-5 flex items-center justify-between text-left hover:bg-white/[0.02] transition-colors focus:outline-none">
+              <h3 class="text-sm font-bold text-white">Como funciona a otimização da ficha no Google?</h3>
+              <i data-lucide="chevron-down" class="faq-icon h-5 w-5 text-brand transition-transform duration-300 shrink-0 ml-4"></i>
+            </button>
+            <div class="faq-content hidden px-6 pb-6 text-sm text-gray-400 font-medium leading-relaxed">
+              Nossa estratégia envolve uma auditoria técnica da ficha atual, aplicação correta de palavras-chave (SEO e GEO - otimizando também para IAs), geolocalização exata de imagens por coordenadas, cadastro estruturado de produtos/serviços e atualizações frequentes. Isso sinaliza para o algoritmo que o seu negócio é a resposta de maior autoridade e relevância para as buscas de clientes próximos a você.
+            </div>
+          </div>
+
+          <!-- FAQ 3 (Avaliações Google Maps) -->
+          <div class="faq-item glassmorphism rounded-2xl border border-white/5 overflow-hidden transition-all duration-300">
+            <button class="faq-button w-full px-6 py-5 flex items-center justify-between text-left hover:bg-white/[0.02] transition-colors focus:outline-none">
+              <h3 class="text-sm font-bold text-white">Faz sentido comprar avaliações para o Google Maps?</h3>
+              <i data-lucide="chevron-down" class="faq-icon h-5 w-5 text-brand transition-transform duration-300 shrink-0 ml-4"></i>
+            </button>
+            <div class="faq-content hidden px-6 pb-6 text-sm text-gray-400 font-medium leading-relaxed">
+              Não. O algoritmo do Google identifica e pune severamente fichas que utilizam avaliações falsas, podendo banir permanentemente seu perfil. Nós implementamos estratégias seguras (White Hat) e automações de CRM para captar avaliações 100% reais de clientes satisfeitos, construindo uma reputação autêntica e blindada contra punições.
+            </div>
+          </div>
+
+          <!-- FAQ 4 (SEO e GEO) -->
+          <div class="faq-item glassmorphism rounded-2xl border border-white/5 overflow-hidden transition-all duration-300">
+            <button class="faq-button w-full px-6 py-5 flex items-center justify-between text-left hover:bg-white/[0.02] transition-colors focus:outline-none">
+              <h3 class="text-sm font-bold text-white">Em quanto tempo meu site chega na primeira página com SEO e GEO?</h3>
+              <i data-lucide="chevron-down" class="faq-icon h-5 w-5 text-brand transition-transform duration-300 shrink-0 ml-4"></i>
+            </button>
+            <div class="faq-content hidden px-6 pb-6 text-sm text-gray-400 font-medium leading-relaxed">
+              Tanto o SEO (Search Engine Optimization) quanto o GEO (Generative Experience Optimization) formam uma estratégia de médio a longo prazo para construir autoridade inquestionável. Enquanto o SEO posiciona você nos resultados tradicionais, o GEO otimiza sua marca para ser recomendada pelas novas Inteligências Artificiais do Google. O tempo depende da concorrência, mas otimizações iniciais costumam gerar aumento expressivo em visibilidade nos primeiros 60 a 90 dias.
+            </div>
+          </div>
+
+          <!-- FAQ 5 (Tempo Resultados Tráfego Pago) -->
+          <div class="faq-item glassmorphism rounded-2xl border border-white/5 overflow-hidden transition-all duration-300">
+            <button class="faq-button w-full px-6 py-5 flex items-center justify-between text-left hover:bg-white/[0.02] transition-colors focus:outline-none">
+              <h3 class="text-sm font-bold text-white">Quanto tempo leva para ver resultados com Tráfego Pago?</h3>
+              <i data-lucide="chevron-down" class="faq-icon h-5 w-5 text-brand transition-transform duration-300 shrink-0 ml-4"></i>
+            </button>
+            <div class="faq-content hidden px-6 pb-6 text-sm text-gray-400 font-medium leading-relaxed">
+              No tráfego pago (Google e Meta Ads), é possível notar aumento no volume de leads logo nas primeiras 48 a 72 horas após a ativação da campanha. O período de maturação para a inteligência de lances e otimização de custo por lead (CPL) é, em média, de 3 a 6 semanas. Nossa gestão foca em performance imediata aliada ao ganho progressivo de inteligência.
+            </div>
+          </div>
+
+          <!-- FAQ 6 (Orçamento Tráfego) -->
+          <div class="faq-item glassmorphism rounded-2xl border border-white/5 overflow-hidden transition-all duration-300">
+            <button class="faq-button w-full px-6 py-5 flex items-center justify-between text-left hover:bg-white/[0.02] transition-colors focus:outline-none">
+              <h3 class="text-sm font-bold text-white">Preciso de um orçamento milionário para começar a anunciar?</h3>
+              <i data-lucide="chevron-down" class="faq-icon h-5 w-5 text-brand transition-transform duration-300 shrink-0 ml-4"></i>
+            </button>
+            <div class="faq-content hidden px-6 pb-6 text-sm text-gray-400 font-medium leading-relaxed">
+              Não. O tráfego pago permite iniciar com orçamentos estratégicos e escalar conforme o Retorno sobre Investimento (ROI) é comprovado. Desenhamos o plano de verba inicial alinhado à sua meta de vendas, garantindo que você nunca gaste dinheiro, mas invista para comprar lucro.
+            </div>
+          </div>
+
+          <!-- FAQ 7 (Acesso Contas) -->
+          <div class="faq-item glassmorphism rounded-2xl border border-white/5 overflow-hidden transition-all duration-300">
+            <button class="faq-button w-full px-6 py-5 flex items-center justify-between text-left hover:bg-white/[0.02] transition-colors focus:outline-none">
+              <h3 class="text-sm font-bold text-white">Tenho total acesso às contas e relatórios?</h3>
+              <i data-lucide="chevron-down" class="faq-icon h-5 w-5 text-brand transition-transform duration-300 shrink-0 ml-4"></i>
+            </button>
+            <div class="faq-content hidden px-6 pb-6 text-sm text-gray-400 font-medium leading-relaxed">
+              100%. Diferente do mercado comum, você é o proprietário absoluto das suas contas de anúncios (Google Ads, Meta Ads). Fornecemos dashboards em tempo real (Data Studio) com métricas de negócio, mostrando exatamente de onde veio cada lead e o Custo de Aquisição de Clientes (CAC).
+            </div>
+          </div>
+
+          <!-- FAQ 8 (Funciona pro meu nicho) -->
+          <div class="faq-item glassmorphism rounded-2xl border border-white/5 overflow-hidden transition-all duration-300">
+            <button class="faq-button w-full px-6 py-5 flex items-center justify-between text-left hover:bg-white/[0.02] transition-colors focus:outline-none">
+              <h3 class="text-sm font-bold text-white">Como sei se o tráfego pago realmente funciona para o meu nicho?</h3>
+              <i data-lucide="chevron-down" class="faq-icon h-5 w-5 text-brand transition-transform duration-300 shrink-0 ml-4"></i>
+            </button>
+            <div class="faq-content hidden px-6 pb-6 text-sm text-gray-400 font-medium leading-relaxed">
+              Qualquer modelo de negócio que possui demanda latente (pessoas buscando o serviço ativamente no Google) ou necessidade de expansão (descoberta no Instagram/Facebook) pode se beneficiar do tráfego. Agende nossa consultoria gratuita para rodarmos uma auditoria no seu segmento específico antes de qualquer compromisso.
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION 6: FINAL CONVERSION -->
+    <section class="py-24 bg-[#0B0F19] relative">
+      <div class="mx-auto max-w-5xl px-6 relative z-10">
+        
+        <!-- Centered glassmorphism container -->
+        <div class="glassmorphism-accent rounded-3xl p-8 sm:p-12 md:p-16 text-center border border-brand/25 shadow-2xl relative overflow-hidden">
+          
+          <!-- Glow accent decorator inside -->
+          <div class="absolute -top-16 -left-16 w-32 h-32 rounded-full bg-brand/10 blur-3xl pointer-events-none"></div>
+          <div class="absolute -bottom-16 -right-16 w-32 h-32 rounded-full bg-emerald-800/10 blur-3xl pointer-events-none"></div>
+
+          <div class="inline-flex h-12 w-12 items-center justify-center rounded-2xl bg-brand/10 text-brand border border-brand/25 mb-6">
+            <i data-lucide="zap" class="h-6 w-6 text-brand animate-pulse"></i>
+          </div>
+
+          <h2 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight mb-4 font-sans max-w-2xl mx-auto leading-tight">
+            Pronto para transformar cliques em faturamento previsível?
+          </h2>
+
+          <p class="text-sm sm:text-base text-gray-400 max-w-xl mx-auto mb-8 leading-relaxed font-body font-medium">
+            Agende uma consultoria estratégica gratuita de 15 minutos diretamente com nosso Diretor de Performance para auditar o ecossistema digital da sua empresa e desbloquear seu crescimento.
+          </p>
+
+          <div class="flex flex-col sm:flex-row justify-center items-center gap-4">
+            <a href="https://api.whatsapp.com/send?phone=5511999999999&text=Ol%C3%A1!%20Gostaria%20de%20falar%20com%20um%20consultor%20para%20fazer%20um%20diagn%C3%B3stico%20gratuito%20da%20minha%20empresa." target="_blank" class="pulse-glow w-full sm:w-auto flex items-center justify-center gap-2.5 rounded-xl bg-brand px-8 py-4 text-sm font-black text-darkBg shadow-[0_0_20px_rgba(16,185,129,0.3)] transition-all duration-300">
+              <i data-lucide="message-square" class="h-5 w-5"></i>
+              <span>Iniciar Diagnóstico Gratuito via WhatsApp</span>
+            </a>
+            
+            <button class="open-modal-btn w-full sm:w-auto flex items-center justify-center gap-2 rounded-xl border border-white/10 hover:border-brand/35 bg-white/5 hover:bg-white/10 px-8 py-4 text-sm font-bold text-white transition-all duration-300" data-service="Geral">
+              <span>Fazer Pré-Análise no Site</span>
+              <i data-lucide="shield-alert" class="h-4 w-4 text-brand"></i>
+            </button>
+          </div>
+
+          <div class="mt-8 flex flex-wrap justify-center gap-6 text-[11px] text-gray-400 font-semibold uppercase tracking-wider">
+            <span class="flex items-center gap-1.5"><i data-lucide="check" class="h-3.5 w-3.5 text-brand"></i> Análise Completa Sem Custo</span>
+            <span class="flex items-center gap-1.5"><i data-lucide="check" class="h-3.5 w-3.5 text-brand"></i> Plano de Tráfego Exclusivo</span>
+            <span class="flex items-center gap-1.5"><i data-lucide="check" class="h-3.5 w-3.5 text-brand"></i> Diagnóstico em Tempo Real</span>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="border-t border-white/5 bg-[#070A13] pt-20 pb-10 text-gray-400 relative">
+      <div class="mx-auto max-w-7xl px-6">
+        
+        <div class="grid grid-cols-1 gap-10 md:grid-cols-12 md:gap-8 pb-12 border-b border-white/5">
+          
+          <!-- Column 1: Info -->
+          <div class="md:col-span-4 space-y-4">
+            <a href="#" class="flex items-center gap-3 group">
+              <div class="flex h-10 w-10 items-center justify-center rounded-xl bg-[#111827] border border-brand/20 text-brand shadow-[0_0_15px_rgba(16,185,129,0.15)] group-hover:scale-105 group-hover:border-brand/50 transition-all duration-300">
+                <i data-lucide="leaf" class="h-5 w-5 text-brand animate-pulse"></i>
+              </div>
+              <div>
+                <span class="text-xl font-extrabold tracking-tight text-white group-hover:text-brand transition-colors duration-300">
+                  Cedrus<span class="text-brand">.</span>
+                </span>
+                <span class="block text-[9px] font-bold uppercase tracking-widest text-gray-400">
+                  Soluções Digitais
+                </span>
+              </div>
+            </a>
+            <p class="text-xs leading-relaxed text-gray-400 font-medium max-w-sm">
+              Agência de marketing e consultoria de performance guiada por ciência de busca, otimização de tráfego e inteligência de dados regionalizada.
+            </p>
+            <div class="flex items-center gap-4 pt-2">
+              <a href="https://share.google/v61EFYVpJ2QVRkqPW" target="_blank" aria-label="Google Meu Negócio" class="h-8 w-8 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-gray-400 hover:bg-brand/10 hover:border-brand/30 hover:text-brand transition-all duration-300">
+                <i data-lucide="map-pin" class="h-4 w-4"></i>
+              </a>
+              <a href="https://www.instagram.com/cedrussolucoesdigitais/" target="_blank" aria-label="Instagram" class="h-8 w-8 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-gray-400 hover:bg-brand/10 hover:border-brand/30 hover:text-brand transition-all duration-300">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4">
+                  <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                  <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line>
+                </svg>
+              </a>
+              <a href="https://www.youtube.com/@CedrusSolucoesDigitais" target="_blank" aria-label="YouTube" class="h-8 w-8 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-gray-400 hover:bg-brand/10 hover:border-brand/30 hover:text-brand transition-all duration-300">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4">
+                  <path d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17"></path>
+                  <polygon points="10 15 15 12 10 9" fill="currentColor"></polygon>
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- Column 2: Solutions -->
+          <div class="md:col-span-3 space-y-3">
+            <h4 class="text-xs font-black uppercase tracking-widest text-white">Soluções de Conversão</h4>
+            <ul class="space-y-2 text-xs font-bold text-gray-400">
+              <li><button class="open-modal-btn hover:text-white transition-colors" data-service="Gestão de Tráfego Pago">Gestão de Tráfego Pago</button></li>
+              <li><button class="open-modal-btn hover:text-white transition-colors" data-service="SEO & Posicionamento">SEO & Posicionamento Orgânico</button></li>
+              <li><button class="open-modal-btn hover:text-white transition-colors" data-service="Google Meu Negócio">Google Meu Negócio (Maps)</button></li>
+              <li><button class="open-modal-btn hover:text-white transition-colors" data-service="Desenvolvimento Web Premium">Desenvolvimento de Sites Premium</button></li>
+              <li><button class="open-modal-btn hover:text-white transition-colors" data-service="Vídeos Profissionais">Vídeos Profissionais (Videomaker/Storymaker)</button></li>
+            </ul>
+          </div>
+
+          <!-- Column 3: Contact & Hours -->
+          <div class="md:col-span-5 space-y-4 text-xs font-semibold">
+            <h4 class="text-xs font-black uppercase tracking-widest text-white">Contato e Expediente</h4>
+            <div class="space-y-2 text-gray-400">
+              <p class="flex items-center gap-2.5">
+                <i data-lucide="clock" class="h-4 w-4 text-brand shrink-0"></i> Segunda a Sexta: 09:00 às 17:00
+              </p>
+              <p class="flex items-center gap-2.5">
+                <i data-lucide="mail" class="h-4 w-4 text-brand shrink-0"></i> <a href="mailto:cedrusbr@gmail.com" class="hover:text-white transition-colors">cedrusbr@gmail.com</a>
+              </p>
+              <p class="flex items-center gap-2.5 leading-relaxed">
+                <i data-lucide="map-pin" class="h-4 w-4 text-brand shrink-0"></i> Atendimento Nacional de Performance Comercial
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Subfooter -->
+        <div class="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-[10px] font-bold text-gray-500 uppercase tracking-widest text-center sm:text-left">
+          <p>© <span id="current-year">2026</span> Cedrus Soluções Digitais. Todos os direitos reservados.</p>
+          <div class="flex flex-wrap items-center justify-center sm:justify-end gap-3 sm:gap-4">
+            <a href="/privacidade.html" class="hover:text-white transition-colors">Política de Privacidade</a>
+            <span class="text-gray-700 hidden sm:inline">|</span>
+            <a href="/cookies.html" class="hover:text-white transition-colors">Política de Cookies</a>
+            <span class="text-gray-700 hidden sm:inline">|</span>
+            <a href="/termos.html" class="hover:text-white transition-colors">Termos de Uso</a>
+            <span class="text-gray-700 hidden sm:inline">|</span>
+            <p>CNPJ: 49.918.596/0001-00</p>
+          </div>
+        </div>
+
+      </div>
+    </footer>
+
+    <!-- INTERACTIVE PRE-DIAGNOSTIC MODAL -->
+    <div id="lead-modal" class="fixed inset-0 z-50 hidden items-center justify-center p-4">
+      <!-- Backdrop with blur -->
+      <div id="modal-backdrop" class="absolute inset-0 bg-[#070A13]/95 backdrop-blur-md"></div>
+
+      <!-- Modal Card Box -->
+      <div class="relative z-10 w-full max-w-lg overflow-hidden rounded-3xl border border-white/10 bg-[#0D111C] shadow-[0_25px_60px_rgba(0,0,0,0.9)] transition-all duration-300">
+        
+        <!-- Internal Glowing ornament -->
+        <div class="absolute -top-12 -right-12 h-40 w-40 rounded-full bg-brand/10 blur-3xl pointer-events-none"></div>
+
+        <!-- Header -->
+        <div class="flex items-center justify-between border-b border-white/5 px-6 py-4">
+          <div class="flex items-center gap-2">
+            <i data-lucide="sparkles" class="h-4.5 w-4.5 text-brand animate-pulse"></i>
+            <span class="text-[9px] font-black uppercase tracking-widest text-gray-400">CEDRUS INTELIGÊNCIA COMERCIAL</span>
+          </div>
+          <button id="close-modal-btn" class="rounded-xl p-2 text-gray-400 hover:bg-white/5 hover:text-white transition-colors cursor-pointer">
+            <i data-lucide="x" class="h-5 w-5"></i>
+          </button>
+        </div>
+
+        <!-- SCREEN 1: LEAD GATHERING FORM -->
+        <form id="lead-form" class="p-6 space-y-4">
+          <div class="text-center mb-6">
+            <h3 class="text-2xl font-black text-white tracking-tight">Solicitar Diagnóstico Gratuito</h3>
+            <p class="mt-1.5 text-xs text-gray-400 font-semibold">
+              Insira os dados da sua empresa abaixo para que nosso algoritmo analise seu posicionamento regional instantaneamente.
+            </p>
+          </div>
+
+          <!-- Name -->
+          <div class="space-y-1.5">
+            <label class="text-xs font-bold text-gray-300 flex items-center gap-1.5">
+              <i data-lucide="user" class="h-4 w-4 text-brand"></i> Seu Nome *
+            </label>
+            <input type="text" id="form-name" required placeholder="Ex: João Silva" class="w-full rounded-xl border border-white/5 bg-[#070A13] px-4 py-3 text-sm text-white placeholder-gray-600 focus:border-brand/40 focus:outline-none focus:ring-1 focus:ring-brand/40 transition-colors">
+          </div>
+
+          <!-- Business Name -->
+          <div class="space-y-1.5">
+            <label class="text-xs font-bold text-gray-300 flex items-center gap-1.5">
+              <i data-lucide="building" class="h-4 w-4 text-brand"></i> Nome da Empresa *
+            </label>
+            <input type="text" id="form-business" required placeholder="Ex: Clínica Odonto Prime" class="w-full rounded-xl border border-white/5 bg-[#070A13] px-4 py-3 text-sm text-white placeholder-gray-600 focus:border-brand/40 focus:outline-none focus:ring-1 focus:ring-brand/40 transition-colors">
+          </div>
+
+          <!-- WhatsApp -->
+          <div class="space-y-1.5">
+            <label class="text-xs font-bold text-gray-300 flex items-center gap-1.5">
+              <i data-lucide="phone" class="h-4 w-4 text-brand"></i> WhatsApp / Celular *
+            </label>
+            <input type="tel" id="form-phone" required placeholder="Ex: (11) 99999-9999" class="w-full rounded-xl border border-white/5 bg-[#070A13] px-4 py-3 text-sm text-white placeholder-gray-600 focus:border-brand/40 focus:outline-none focus:ring-1 focus:ring-brand/40 transition-colors">
+          </div>
+
+          <!-- Solution of interest -->
+          <div class="space-y-1.5">
+            <label class="text-xs font-bold text-gray-300 flex items-center gap-1.5">
+              <i data-lucide="message-square" class="h-4 w-4 text-brand"></i> Qual solução mais te interessa?
+            </label>
+            <select id="modal-service-select" class="w-full rounded-xl border border-white/5 bg-[#070A13] px-4 py-3 text-sm text-white focus:border-brand/40 focus:outline-none focus:ring-1 focus:ring-brand/40 transition-colors">
+              <option value="Geral">Todas as soluções (Geral)</option>
+              <option value="Gestão de Tráfego Pago">Gestão de Tráfego Pago (Google & Meta Ads)</option>
+              <option value="SEO & Posicionamento">SEO & Posicionamento Orgânico</option>
+              <option value="Google Meu Negócio">Google Meu Negócio (Maps)</option>
+              <option value="Desenvolvimento Web Premium">Desenvolvimento de Sites Premium</option>
+              <option value="Vídeos Profissionais">Vídeos Profissionais (Videomaker & Storymaker)</option>
+            </select>
+          </div>
+
+          <!-- Website -->
+          <div class="space-y-1.5">
+            <label class="text-xs font-bold text-gray-300 flex items-center gap-1.5">
+              <i data-lucide="globe" class="h-4 w-4 text-brand"></i> Site da Empresa (Opcional)
+            </label>
+            <input type="url" id="form-website" placeholder="Ex: https://suaempresa.com.br" class="w-full rounded-xl border border-white/5 bg-[#070A13] px-4 py-3 text-sm text-white placeholder-gray-600 focus:border-brand/40 focus:outline-none focus:ring-1 focus:ring-brand/40 transition-colors">
+          </div>
+
+          <button type="submit" class="mt-6 w-full flex items-center justify-center gap-2 rounded-xl bg-brand py-4 text-sm font-black text-darkBg hover:bg-brand-dark transition-colors shadow-lg hover:shadow-[0_0_25px_rgba(16,185,129,0.3)] duration-300 cursor-pointer">
+            <i data-lucide="send" class="h-4 w-4"></i>
+            <span>Gerar Diagnóstico por IA</span>
+          </button>
+        </form>
+
+        <!-- SCREEN 2: SCANNING PROGRESS SCREEN -->
+        <div id="scan-screen" class="hidden p-8 flex flex-col items-center justify-center space-y-6">
+          <div class="relative flex items-center justify-center h-20 w-20">
+            <div class="absolute inset-0 rounded-full border-4 border-brand/10"></div>
+            <div class="absolute inset-0 rounded-full border-t-4 border-brand animate-spin [animation-duration:1.5s]"></div>
+            <i data-lucide="search" class="h-8 w-8 text-brand animate-pulse"></i>
+          </div>
+          <div class="text-center space-y-2">
+            <h4 class="text-lg font-extrabold text-white">Analisando Presença Comercial...</h4>
+            <p id="scan-text" class="text-xs text-gray-400 h-10 font-medium">Conectando à API do Google Maps...</p>
+          </div>
+          <!-- Progress bar -->
+          <div class="w-full bg-gray-800 h-2 rounded-full overflow-hidden">
+            <div id="scan-bar" class="bg-brand h-full rounded-full transition-all duration-100" style="width: 0%;"></div>
+          </div>
+        </div>
+
+        <!-- SCREEN 3: RESULT SCREEN (CRITICAL ALERTS) -->
+        <div id="result-screen" class="hidden p-6 space-y-6">
+          <div class="text-center">
+            <div class="mx-auto flex h-14 w-14 items-center justify-center rounded-2xl bg-red-500/10 text-red-400 border border-red-500/20 mb-4 animate-pulse">
+              <i data-lucide="shield-alert" class="h-6 w-6"></i>
+            </div>
+            <h4 class="text-xl font-black text-white">Pré-Diagnóstico Concluído!</h4>
+            <p class="mt-1 text-xs text-gray-400 font-semibold">Sua empresa foi escaneada no ecossistema de buscas locais.</p>
+          </div>
+
+          <!-- Score Widget -->
+          <div class="rounded-2xl bg-[#070A13] p-5 border border-red-500/20 text-center relative overflow-hidden">
+            <div class="absolute top-0 left-0 bg-red-500 text-[9px] font-black text-white px-3 py-0.5 rounded-br-lg uppercase tracking-wider">
+              Alerta Crítico
+            </div>
+            <span class="block text-[10px] uppercase tracking-widest text-gray-400 font-extrabold mt-1">
+              Nota de Posicionamento Google
+            </span>
+            <span class="block text-5xl font-black text-red-400 my-2 tracking-tight font-sans">
+              42<span class="text-white/10">/100</span>
+            </span>
+            <p id="result-error-sub" class="text-xs text-white/90 font-bold">
+              Invisibilidade local severa detectada para a empresa.
+            </p>
+          </div>
+
+          <!-- Flaws listed -->
+          <div class="space-y-2.5">
+            <span class="text-[10px] font-extrabold uppercase tracking-widest text-gray-400">Falhas estruturais identificadas:</span>
+            <div class="space-y-2">
+              <div class="flex items-start gap-2.5 rounded-xl bg-white/5 p-3 text-xs text-white/80 leading-relaxed font-medium">
+                <span class="text-red-400 shrink-0 mt-0.5">⚠️</span>
+                <div>
+                  <strong class="text-white">Perfil do Maps sem Otimização:</strong> Faltam geotags e palavras-chave de intenção comercial para rankear na sua vizinhança.
+                </div>
+              </div>
+              <div class="flex items-start gap-2.5 rounded-xl bg-white/5 p-3 text-xs text-white/80 leading-relaxed font-medium">
+                <span class="text-red-400 shrink-0 mt-0.5">⚠️</span>
+                <div>
+                  <strong class="text-white">Perda de Clientes Orgânicos:</strong> Concorrentes locais com menor qualidade estão recebendo mais chamadas devido à ausência de SEO Técnico estrutural.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Final Direct CTA Button -->
+          <div class="space-y-3 pt-2">
+            <a id="wa-redirect-link" href="#" target="_blank" class="w-full flex items-center justify-center gap-2.5 rounded-xl bg-emerald-500 py-4 text-sm font-black text-white hover:bg-emerald-600 transition-colors shadow-lg hover:shadow-[0_0_20px_rgba(16,185,129,0.3)] text-center">
+              <i data-lucide="message-square" class="h-4.5 w-4.5"></i>
+              <span>Liberar Auditoria Completa via WhatsApp</span>
+            </a>
+            <button id="restart-modal-btn" class="w-full text-center text-xs text-gray-400 hover:text-white underline transition-colors cursor-pointer">
+              Refazer com outros dados
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- FLOATING WHATSAPP WIDGET -->
+    <a id="wa-widget" href="https://api.whatsapp.com/send?phone=5511999999999&text=Ol%C3%A1!%20Gostaria%20de%20solicitar%20uma%20an%C3%A1lise%20estrategica%20dos%20an%C3%BAncios%20e%20SEO%20do%20meu%20neg%C3%B3cio." target="_blank" class="fixed bottom-6 right-6 z-40 flex items-center justify-center h-14 w-14 rounded-full bg-emerald-500 text-white shadow-[0_4px_20px_rgba(16,185,129,0.4)] border border-emerald-400/20 hover:scale-110 transition-all duration-300 translate-y-24 opacity-0 pointer-events-auto cursor-pointer">
+      <div class="absolute inset-0 rounded-full border-4 border-emerald-400/30 animate-ping [animation-duration:2s]"></div>
+      <i data-lucide="message-square" class="h-6 w-6 relative z-10 fill-current"></i>
+    </a>
+
+    <!-- CUSTOM INTERACTIVE SCRIPTS -->
+    <script type="text/javascript">
+      // Initialize Lucide Icons
+      lucide.createIcons();
+
+      // Setup dynamic copyright year
+      document.getElementById('current-year').textContent = new Date().getFullYear();
+
+      // Header background transformation on scroll
+      window.addEventListener('scroll', () => {
+        const header = document.getElementById('main-header');
+        const scrollContainer = header.querySelector('div');
+        if (window.scrollY > 20) {
+          header.classList.remove('py-5');
+          header.classList.add('py-3');
+          scrollContainer.classList.remove('border-white/5', 'bg-[#0D111C]/40');
+          scrollContainer.classList.add('border-white/10', 'bg-[#0D111C]/90', 'shadow-[0_10px_30px_rgba(0,0,0,0.8)]');
+        } else {
+          header.classList.remove('py-3');
+          header.classList.add('py-5');
+          scrollContainer.classList.remove('border-white/10', 'bg-[#0D111C]/90', 'shadow-[0_10px_30px_rgba(0,0,0,0.8)]');
+          scrollContainer.classList.add('border-white/5', 'bg-[#0D111C]/40');
+        }
+      });
+
+      // Mobile Menu functionality
+      const menuBtn = document.getElementById('menu-btn');
+      const mobileMenu = document.getElementById('mobile-menu');
+      const menuIcon = document.getElementById('menu-icon');
+
+      menuBtn.addEventListener('click', () => {
+        const isOpen = !mobileMenu.classList.contains('hidden');
+        if (isOpen) {
+          mobileMenu.classList.add('hidden');
+          menuIcon.setAttribute('data-lucide', 'menu');
+        } else {
+          mobileMenu.classList.remove('hidden');
+          menuIcon.setAttribute('data-lucide', 'x');
+        }
+        lucide.createIcons();
+      });
+
+      // Close mobile menu on clicking any navigation link
+      const mobileLinks = document.querySelectorAll('.mobile-link');
+      mobileLinks.forEach(link => {
+        link.addEventListener('click', () => {
+          mobileMenu.classList.add('hidden');
+          menuIcon.setAttribute('data-lucide', 'menu');
+          lucide.createIcons();
+        });
+      });
+
+      // Lead modal trigger controls
+      const leadModal = document.getElementById('lead-modal');
+      const closeModalBtn = document.getElementById('close-modal-btn');
+      const modalBackdrop = document.getElementById('modal-backdrop');
+      const openModalBtns = document.querySelectorAll('.open-modal-btn');
+
+      const leadForm = document.getElementById('lead-form');
+      const scanScreen = document.getElementById('scan-screen');
+      const resultScreen = document.getElementById('result-screen');
+      const scanBar = document.getElementById('scan-bar');
+      const scanText = document.getElementById('scan-text');
+
+      // Function to open modal
+      const openModal = (service = 'Geral') => {
+        document.getElementById('modal-service-select').value = service;
+        leadModal.classList.remove('hidden');
+        leadModal.classList.add('flex');
+        document.body.style.overflow = 'hidden';
+      };
+
+      // Function to close modal
+      const closeModal = () => {
+        leadModal.classList.add('hidden');
+        leadModal.classList.remove('flex');
+        document.body.style.overflow = 'auto';
+        // Reset sub-screens
+        leadForm.classList.remove('hidden');
+        scanScreen.classList.add('hidden');
+        resultScreen.classList.add('hidden');
+      };
+
+      openModalBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+          const selectedService = btn.getAttribute('data-service') || 'Geral';
+          openModal(selectedService);
+        });
+      });
+
+      closeModalBtn.addEventListener('click', closeModal);
+      modalBackdrop.addEventListener('click', closeModal);
+
+      // Lead Form Submit Scanning Simulation
+      leadForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+        
+        const name = document.getElementById('form-name').value;
+        const businessName = document.getElementById('form-business').value;
+        const phone = document.getElementById('form-phone').value;
+        const service = document.getElementById('modal-service-select').value;
+        const website = document.getElementById('form-website').value;
+
+        if (!name || !businessName || !phone) {
+          return;
+        }
+
+        // Switch to Scanning Screen
+        leadForm.classList.add('hidden');
+        scanScreen.classList.remove('hidden');
+
+        // Text Scanning Simulation sequence
+        const messages = [
+          "Conectando ao ecossistema Google Maps local...",
+          "Analisando autoridade de SEO orgânico na região...",
+          "Mapeando posicionamento de palavras-chave competitivas...",
+          "Avaliando índice de faturamento perdido para concorrentes..."
+        ];
+
+        let progress = 0;
+        scanBar.style.width = '0%';
+        scanText.textContent = messages[0];
+
+        const interval = setInterval(() => {
+          progress += 5;
+          scanBar.style.width = progress + '%';
+
+          if (progress === 25) {
+            scanText.textContent = messages[1];
+          } else if (progress === 50) {
+            scanText.textContent = messages[2];
+          } else if (progress === 75) {
+            scanText.textContent = messages[3];
+          }
+
+          if (progress >= 100) {
+            clearInterval(interval);
+            scanScreen.classList.add('hidden');
+            resultScreen.classList.remove('hidden');
+
+            // Fill results with lead data details
+            document.getElementById('result-error-sub').textContent = `Invisibilidade local severa detectada para "${businessName}"`;
+
+            // Prepare WhatsApp dynamic redirection text
+            const textMsg = `Olá Cedrus! Acabei de rodar o Pré-Diagnóstico para minha empresa *${businessName}* no site e obtive a nota 42/100 (Alerta Crítico).\n\nGostaria de liberar o meu Relatório de Auditoria Completo de *${service}* e agendar minha consultoria estratégica gratuita.\n\n*Dados Cadastrados:*\n• *Contato:* ${name}\n• *Celular:* ${phone}\n${website ? `• *Site:* ${website}` : ''}`;
+            const encodedText = encodeURIComponent(textMsg);
+
+            // Update the CTA button href securely
+            const waRedirectLink = document.getElementById('wa-redirect-link');
+            waRedirectLink.href = `https://api.whatsapp.com/send?phone=5511999999999&text=${encodedText}`;
+          }
+        }, 150);
+      });
+
+      // Restart Pre-Diagnostic Modal
+      document.getElementById('restart-modal-btn').addEventListener('click', () => {
+        resultScreen.classList.add('hidden');
+        leadForm.classList.remove('hidden');
+        leadForm.reset();
+      });
+
+      // Floating WhatsApp Widget delay arrival (3 seconds)
+      setTimeout(() => {
+        const waWidget = document.getElementById('wa-widget');
+        waWidget.classList.remove('translate-y-24', 'opacity-0');
+        waWidget.classList.add('translate-y-0', 'opacity-100');
+      }, 3000);
+
+      // FAQ Accordion functionality
+      const faqButtons = document.querySelectorAll('.faq-button');
+      faqButtons.forEach(button => {
+        button.addEventListener('click', () => {
+          const content = button.nextElementSibling;
+          const icon = button.querySelector('.faq-icon');
+          const isHidden = content.classList.contains('hidden');
+
+          // Close all other FAQs (optional, but good for UX)
+          faqButtons.forEach(otherBtn => {
+            if (otherBtn !== button) {
+              otherBtn.nextElementSibling.classList.add('hidden');
+              otherBtn.querySelector('.faq-icon').classList.remove('rotate-180');
+              otherBtn.parentElement.classList.remove('border-brand/30');
+            }
+          });
+
+          // Toggle current FAQ
+          if (isHidden) {
+            content.classList.remove('hidden');
+            icon.classList.add('rotate-180');
+            button.parentElement.classList.add('border-brand/30');
+          } else {
+            content.classList.add('hidden');
+            icon.classList.remove('rotate-180');
+            button.parentElement.classList.remove('border-brand/30');
+          }
+        });
+      });
+    </script>
+
+    <!-- Framer Motion Animations -->
+    <script type="module">
+      import { animate, inView } from "https://cdn.jsdelivr.net/npm/motion@11.11.13/+esm";
+
+      // Select all cards we want to animate
+      const revealElements = document.querySelectorAll('.framer-scroll-reveal');
+
+      revealElements.forEach((el, index) => {
+        inView(el, (info) => {
+          animate(info.target, { 
+            opacity: [0, 1], 
+            y: [32, 0] // 32px is equivalent to translate-y-8
+          }, { 
+            duration: 0.6,
+            delay: index % 3 * 0.15, // Stagger effect for items in same row
+            easing: "ease-out"
+          });
+        }, { margin: "-50px" }); // Trigger slightly before it comes fully into view
+      });
+    </script>
+  </body>
+</html>
